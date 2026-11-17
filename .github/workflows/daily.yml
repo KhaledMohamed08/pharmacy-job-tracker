@@ -1,0 +1,54 @@
+name: Daily job search
+
+on:
+  schedule:
+    - cron: "0 5 * * *"   # every day 05:00 UTC = 07:00/08:00 Cairo
+  workflow_dispatch:       # "Run workflow" button for a manual run
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run tests
+        run: python -m unittest discover -s tests
+      - name: Fetch and score
+        env:
+          DEFER_NOTIFY: "1"
+        run: DASHBOARD_URL="https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/" python fetch_jobs.py
+      - name: Save results
+        run: |
+          git config user.name "pharmacy-job-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/jobs.json
+          git diff --cached --quiet || git commit -m "Update jobs $(date -u +%F)"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 20; done
+          exit 1
+      - name: Send alerts once the website has the new list
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          ADMIN_CHAT_ID: ${{ secrets.ADMIN_CHAT_ID }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+        run: DASHBOARD_URL="https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/" python fetch_jobs.py send
+      - name: Tell the admin chat if this run failed
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          ADMIN_CHAT_ID: ${{ secrets.ADMIN_CHAT_ID }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          CHAT="${ADMIN_CHAT_ID:-${TELEGRAM_CHAT_ID%%,*}}"
+          [ -n "$TELEGRAM_BOT_TOKEN" ] && [ -n "$CHAT" ] || exit 0
+          curl -fsS -o /dev/null "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${CHAT}" \
+            --data-urlencode "text=⚠️ Today's job search run failed, so no new jobs were added. Details: ${RUN_URL}"

@@ -1,0 +1,118 @@
+{
+  "_help": "Edit this file to tune matching. Patterns are lowercase regular expressions.",
+
+  "_location_help": "On-site and hybrid jobs must be in one of these areas. Remote jobs only need to be open to applicants in Egypt.",
+  "home_area": [
+    "cairo", "giza", "new cairo", "6th of october", "6 october", "october city", "sheikh zayed", "el sheikh zayed",
+    "nasr city", "maadi", "heliopolis", "new capital", "القاهرة", "الجيزة", "أكتوبر", "الشيخ زايد", "مدينة نصر", "المعادي"
+  ],
+  "home_country": ["egypt", "\\begy\\b", "مصر"],
+  "other_egypt_cities": [
+    "alexandria", "mansoura", "tanta", "assiut", "asyut", "sohag", "minya", "luxor", "aswan", "port said", "suez",
+    "ismailia", "zagazig", "damietta", "hurghada", "sharm", "beni suef", "fayoum", "qena", "10th of ramadan",
+    "tenth of ramadan", "sadat city", "borg el arab", "damanhour", "kafr", "menoufia", "sharqia", "dakahlia",
+    "beheira", "gharbia", "الإسكندرية", "المنصورة", "طنطا", "أسيوط"
+  ],
+
+  "_role_help": "A job whose TITLE matches one of these counts as a pharmacy role.",
+  "role_keywords": [
+    "pharmac", "صيدل", "drug safety",
+    "medical information", "drug information", "medication safety", "\\bmedicines\\b", "essential medicines",
+    "health (products?|commodit)"
+  ],
+  "_conditional_role_help": "These titles count as a pharmacy role only when the posting is about medicines (see pharma_context). Regulatory, quality and supply jobs exist in every industry.",
+  "conditional_role_keywords": [
+    "regulatory affairs", "regulatory (associate|specialist|officer|executive|lead)", "licensing",
+    "quality (assurance|control)", "\\bq[ac]\\b", "\\bgmp\\b", "validation", "supply chain", "procurement", "\\bsourcing\\b",
+    "inventory", "warehouse", "logistics", "compliance"
+  ],
+  "pharma_context": [
+    "pharmaceutic", "pharmacy", "pharmacist", "medicines?\\b", "medical (supplies|products|devices)", "health products?",
+    "\\bgmp\\b", "good manufacturing practice", "\\bgdp\\b", "good distribution practice", "vaccines?\\b",
+    "drug (safety|regulat|product|supply|registration|manufactur|substance)", "active pharmaceutical",
+    "cold chain"
+  ],
+
+  "_role_text_help": "A job whose DESCRIPTION matches one of these asks for a pharmacy background.",
+  "role_text": [
+    "pharmacist", "pharmacy (degree|graduate|background)", "\\bpharm\\.?\\s?d\\b", "\\bb\\.?\\s?pharm\\b",
+    "bachelor'?s?( degree)? (of|in) pharma", "degree in pharma", "pharmaceutical sciences", "صيدلة", "صيدلي"
+  ],
+
+  "_areas_help": "Practice areas. Each area found in a job adds its weight (more if it's in the title). They also become the filters on the dashboard.",
+  "areas": {
+    "Hospital & clinical": { "patterns": ["hospital", "clinical pharmac", "\\bicu\\b", "inpatient", "outpatient", "\\btpn\\b", "antimicrobial stewardship", "oncology pharmac", "drug information", "medication (safety|review|reconciliation)", "formulary", "unit[- ]dose", "\\biv\\b (admixture|preparation)"], "weight": 15 },
+    "Drug safety":         { "patterns": ["pharmacovigilan", "drug safety", "adverse (event|drug|reaction)", "\\bicsrs?\\b", "signal (detection|management)", "\\bpsur\\b", "\\bpbrer\\b"], "weight": 10 },
+    "Regulatory":          { "patterns": ["regulatory affairs", "regulatory (associate|specialist|officer|submission)", "product registration", "egyptian drug authority", "\\beda\\b", "dossier", "\\be?ctd\\b", "marketing authori[sz]ation"], "weight": 10 },
+    "Medical information": { "patterns": ["medical information", "drug information", "medical inquir", "medical enquir"], "weight": 10 },
+    "Quality":             { "patterns": ["\\bgmp\\b", "quality (assurance|control)", "\\bq[ac]\\b", "validation", "\\bcapa\\b", "deviation", "batch record", "stability stud"], "weight": 8 },
+    "Supply & procurement": { "patterns": ["supply chain", "procurement", "health products?", "essential medicines", "medical supplies", "inventory", "\\bsourcing\\b", "\\bgdp\\b"], "weight": 8 }
+  },
+
+  "_hide_help": "Jobs matching these are hidden completely, not just scored low.",
+  "hide_titles": [
+    "community pharmac", "retail pharmac", "pharmacy (chain|store|branch|outlet)", "صيدلية",
+    "medical rep", "medical sales", "sales rep", "pharma(ceutical)? sales", "product specialist", "key account",
+    "territory", "area sales", "district (sales|manager)", "\\bfield\\b", "business (unit )?manager",
+    "pharmacy (technician|assistant|aide|clerk)", "pharmacist assistant", "assistant pharmacist", "\\btechnician\\b",
+    "مندوب", "دعاية طبية",
+    "marketing", "market access", "access manager", "\\bbrand\\b", "commercial(?! quality)", "business development",
+    "account manager", "\\bsales\\b(?! (and|&) operations)", "\\bmsl\\b", "medical (science|scientific) liaison", "customer experience",
+    "customer engagement", "patient (engagement|support) (partner|manager|specialist)"
+  ],
+  "hide_orgs": [
+    "ezaby", "\\bseif\\b", "19011", "roshdy", "misr pharmac", "\\bboots\\b", "watsons", "\\bcvs\\b", "walgreens",
+    "chefaa", "\\bgarhy\\b"
+  ],
+  "hide_locations": ["\\bfield\\b"],
+  "hide_text": [
+    "travel (up to )?\\d{2,3}\\s?%", "extensive(ly)? travel", "frequent travel", "travel extensively", "field[- ]based",
+    "\\bdha\\b", "\\bdoh\\b (licen|abu dhabi)", "dubai health authority", "department of health[- ]abu dhabi", "\\bscfhs\\b",
+    "saudi commission for health", "prometric", "dataflow", "\\bqchp\\b", "\\bmoph\\b (licen|qatar)", "\\bgphc\\b",
+    "general pharmaceutical council", "\\bnaplex\\b", "\\bnabp\\b", "\\bpebc\\b", "\\bkaps\\b",
+    "state (board of )?pharmacy licen[cs]e", "licen[cs]ed (as a )?pharmacist in (the state|any (us |u\\.s\\. )?state|good standing in)",
+    "(us|u\\.s\\.|uk|saudi|uae|emirati|qatari?|kuwaiti?|omani?|bahraini?|canadian|australian|irish|german) (pharmacist |pharmacy )?licen[cs]",
+    "eligib(le|ility) for (pharmacist )?licensure", "board of pharmacy"
+  ],
+
+  "_language_help": "Arabic is a plus. Native-level English writing is a minus. Other languages in the title are a minus.",
+  "arabic_patterns": ["\\barabic\\b", "العربية", "arabic[- ]speaking"],
+  "native_english_patterns": [
+    "native (english|level english|english speaker)", "english (native|mother tongue)", "native[- ]level (english|fluency)",
+    "excellent written english", "exceptional (written )?english", "medical writ"
+  ],
+  "other_languages": [
+    "french", "spanish", "chinese", "mandarin", "russian", "portuguese", "german", "italian", "japanese",
+    "korean", "polish", "dutch", "turkish", "persian", "farsi", "urdu", "hindi", "bengali", "swahili",
+    "amharic", "somali", "hausa", "thai", "vietnamese", "indonesian", "ukrainian", "romanian", "greek",
+    "hebrew", "czech", "swedish", "norwegian", "danish", "finnish", "hungarian", "tagalog", "malay", "tamil"
+  ],
+
+  "senior_patterns": [
+    "\\bsenior\\b", "\\bsr\\.?\\b", "\\bchief\\b", "\\bhead of\\b", "\\bprincipal\\b", "\\bdirector\\b",
+    "\\blead\\b", "\\bp-?[45]\\b", "\\bd-?[12]\\b", "\\bmanager\\b", "\\bmanaging\\b", "\\bexpert\\b"
+  ],
+
+  "_exclude_help": "Gig work that trains AI systems. Delete these two lists to show them again.",
+  "exclude_title_or_company": [
+    "\\bai[- ]train", "\\btrain(ing)? ai\\b", "\\bai (tutor|data|project|evaluat)", "\\bcontributor\\b", "data contributor",
+    "data collection", "annotat", "\\brater\\b", "\\bperle\\b", "invisible technologies", "mercor", "outlier",
+    "appen\\b", "toloka", "dataannotation", "scale ai", "welo data", "oneforma", "alignerr", "micro1",
+    "turing\\b", "centific", "telus digital", "imerit", "handshake ai", "snorkel"
+  ],
+  "exclude_description": [
+    "ai trainer", "training data", "train(ing)? (ai|llms?|language models?)", "ai models? training",
+    "data annotation", "human feedback", "\\brlhf\\b"
+  ],
+
+  "not_suitable_titles": [
+    "\\bdriver\\b", "security guard", "\\bcleaner\\b", "mechanic", "electrician", "\\bnurse\\b", "nursing",
+    "physician", "medical doctor", "\\bsurgeon\\b", "dentist", "dental", "physiotherap", "radiolog",
+    "veterinar", "software", "\\bdeveloper\\b", "machine operator", "accountant", "legal counsel",
+    "\\bqa (engineer|tester|analyst|automation|lead)", "\\btest(er|ers|ing)\\b", "\\bsdet\\b", "\\bai\\b"
+  ],
+
+  "min_score": 45,
+  "notify_min_score": 55,
+  "max_age_days": 45
+}

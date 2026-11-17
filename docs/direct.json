@@ -1,0 +1,219 @@
+[
+  {
+    "group": "Hospitals in Greater Cairo",
+    "items": [
+      {
+        "id": "57357",
+        "name": "Children's Cancer Hospital 57357",
+        "link": "https://www.57357.org/",
+        "what": "Large specialist hospital in Cairo with a big clinical pharmacy department.",
+        "tip": "Oncology and IV preparation experience is valued here. Check its careers page regularly."
+      },
+      {
+        "id": "cleopatra",
+        "name": "Cleopatra Hospitals Group",
+        "link": "https://cleopatrahospitals.com/",
+        "what": "Group of private hospitals in Cairo and Giza.",
+        "tip": "Apply for clinical or inpatient pharmacist roles and mention your hospital systems experience."
+      },
+      {
+        "id": "alameda",
+        "name": "Alameda Healthcare (Dar Al Fouad, As-Salam International)",
+        "link": "https://alameda-hc.com/",
+        "what": "Owns Dar Al Fouad in 6th of October and Nasr City, and As-Salam International in Maadi.",
+        "tip": "Accredited hospitals like these value medication-safety and clinical pharmacy work."
+      },
+      {
+        "id": "andalusia",
+        "name": "Andalusia Hospitals",
+        "link": "https://andalusiagroup.net/",
+        "what": "Private hospital group with hospitals in Cairo.",
+        "tip": "Check which of its hospitals are in Greater Cairo before applying."
+      }
+    ]
+  },
+  {
+    "group": "Pharma companies in Egypt",
+    "items": [
+      {
+        "id": "eva-pharma",
+        "name": "EVA Pharma",
+        "link": "https://www.evapharma.com/careers",
+        "what": "Large Egyptian pharma manufacturer, with roles in production, quality, regulatory and sales.",
+        "tip": "Look at its regulatory affairs, pharmacovigilance and quality roles."
+      },
+      {
+        "id": "eipico",
+        "name": "EIPICO",
+        "link": "https://www.eipico.com.eg/",
+        "what": "Egyptian pharma manufacturer. Its main site is in 10th of Ramadan City, outside Greater Cairo.",
+        "tip": "Look for roles at its Cairo offices, such as regulatory affairs and pharmacovigilance."
+      },
+      {
+        "id": "amoun",
+        "name": "Amoun Pharmaceutical",
+        "link": "https://www.amoun.com/",
+        "what": "Egyptian pharma manufacturer.",
+        "tip": "Look at its quality, regulatory and pharmacovigilance roles."
+      },
+      {
+        "id": "hikma",
+        "name": "Hikma",
+        "link": "https://www.hikma.com/careers/",
+        "what": "Regional pharma company with operations in Egypt.",
+        "tip": "Set a job alert for Egypt on its careers site."
+      },
+      {
+        "id": "pfizer",
+        "name": "Pfizer careers",
+        "link": "https://www.pfizer.com/about/careers",
+        "what": "Its Cairo office hires medical, regulatory and quality staff. The daily search already checks it.",
+        "tip": "Create a profile and a job alert for Egypt so you hear about new roles straight away."
+      },
+      {
+        "id": "novartis",
+        "name": "Novartis careers",
+        "link": "https://www.novartis.com/careers",
+        "what": "Its Egypt office and factory hire pharmacists. The daily search already checks it.",
+        "tip": "Look for Egypt early-career programmes as well as normal job posts."
+      },
+      {
+        "id": "astrazeneca",
+        "name": "AstraZeneca careers",
+        "link": "https://careers.astrazeneca.com/",
+        "what": "Its Cairo office hires medical, regulatory and commercial staff. The daily search already checks it.",
+        "tip": "Medical information and regulatory roles often prefer a pharmacy degree."
+      }
+    ]
+  },
+  {
+    "group": "CROs and drug safety",
+    "items": [
+      {
+        "id": "iqvia",
+        "name": "IQVIA careers",
+        "link": "https://jobs.iqvia.com/",
+        "what": "The largest clinical research company. It has many pharmacovigilance and clinical trial roles.",
+        "tip": "Search for \"Drug Safety Associate\" and \"Medical Information\". Hospital experience helps with both."
+      },
+      {
+        "id": "ppd",
+        "name": "Thermo Fisher (PPD) clinical research",
+        "link": "https://jobs.thermofisher.com/global/en/clinical-research",
+        "what": "Clinical research jobs, including remote roles based in Egypt.",
+        "tip": "Filter by Egypt. It has posted Clinical Trial Coordinator roles there."
+      },
+      {
+        "id": "icon",
+        "name": "ICON careers",
+        "link": "https://careers.iconplc.com/",
+        "what": "Large clinical research company with pharmacovigilance and medical information roles.",
+        "tip": "Set an alert for pharmacovigilance roles in the Middle East and Africa."
+      },
+      {
+        "id": "parexel",
+        "name": "Parexel careers",
+        "link": "https://jobs.parexel.com/",
+        "what": "Clinical research company with drug safety and regulatory roles.",
+        "tip": "Look at its entry-level and graduate roles."
+      },
+      {
+        "id": "primevigilance",
+        "name": "PrimeVigilance",
+        "link": "https://primevigilance.com/careers/",
+        "what": "A company that specializes in pharmacovigilance and hires drug safety associates remotely in many countries.",
+        "tip": "A GCP or pharmacovigilance certificate helps your CV stand out."
+      }
+    ]
+  },
+  {
+    "group": "UN and humanitarian",
+    "items": [
+      {
+        "id": "who",
+        "name": "WHO careers",
+        "link": "https://www.who.int/careers",
+        "what": "World Health Organization jobs, consultancies and internships, including in its Cairo regional office.",
+        "tip": "WHO's Eastern Mediterranean office is in Cairo. Look for medicines, supply and health-product roles."
+      },
+      {
+        "id": "unicef",
+        "name": "UNICEF jobs",
+        "link": "https://jobs.unicef.org/",
+        "what": "UNICEF has supply, health and immunization roles. The daily search already checks it.",
+        "tip": "Create a profile and save searches for Egypt and \"health\"."
+      }
+    ]
+  },
+  {
+    "group": "Free training and certificates",
+    "items": [
+      {
+        "id": "nida-gcp",
+        "name": "Good Clinical Practice course (NIDA)",
+        "link": "https://gcp.nidatraining.org/",
+        "what": "A free online Good Clinical Practice course with a certificate.",
+        "tip": "Add the certificate to your CV and LinkedIn. CROs often ask for GCP."
+      },
+      {
+        "id": "openwho",
+        "name": "OpenWHO courses",
+        "link": "https://openwho.org/",
+        "what": "Free WHO online courses on public health, medicines and emergencies.",
+        "tip": "Short courses with certificates look good for UN and NGO applications."
+      },
+      {
+        "id": "who-academy",
+        "name": "WHO Academy",
+        "link": "https://www.who.int/about/who-academy",
+        "what": "WHO's learning platform for health workers.",
+        "tip": "Look for courses on medicines safety and supply."
+      }
+    ]
+  },
+  {
+    "group": "Job alerts in Egypt",
+    "items": [
+      {
+        "id": "wuzzuf",
+        "name": "Wuzzuf job alerts",
+        "link": "https://wuzzuf.net/",
+        "what": "Egypt's main job site. It blocks this tool, so its own alerts fill the gap.",
+        "tip": "Create free alerts for \"clinical pharmacist\", \"pharmacovigilance\" and \"صيدلي إكلينيكي\" in Cairo and Giza."
+      },
+      {
+        "id": "bayt",
+        "name": "Bayt job alerts",
+        "link": "https://www.bayt.com/en/egypt/",
+        "what": "Job site across the Arab region. It also blocks this tool.",
+        "tip": "Create alerts for pharmacist jobs in Cairo and Giza."
+      },
+      {
+        "id": "linkedin",
+        "name": "LinkedIn job alerts",
+        "link": "https://www.linkedin.com/jobs/",
+        "what": "Pharma companies and CROs in Egypt post many jobs here first.",
+        "tip": "Set alerts for \"clinical pharmacist Cairo\", \"pharmacovigilance Egypt\" and \"regulatory affairs Egypt\"."
+      },
+      {
+        "id": "forasna",
+        "name": "Forasna",
+        "link": "https://forasna.com/",
+        "what": "Egyptian job site popular with pharmacy chains.",
+        "tip": "Search for \"صيدلي إكلينيكي\" in Cairo and Giza."
+      }
+    ]
+  },
+  {
+    "group": "Government",
+    "items": [
+      {
+        "id": "eda",
+        "name": "Egyptian Drug Authority",
+        "link": "https://www.edaegypt.gov.eg/",
+        "what": "Egypt's medicines regulator. It posts its own vacancies and the regulatory rules companies follow.",
+        "tip": "Reading the registration rules here helps in regulatory affairs interviews."
+      }
+    ]
+  }
+]
