@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T15:11:21Z",
+ "updated": "2026-11-17T16:10:27Z",
  "areas": [
   "Hospital & clinical",
   "Drug safety",
@@ -9,57 +9,57 @@
   "Supply & procurement"
  ],
  "sources": {
-  "Jobicy": {
-   "ok": true,
-   "count": 100
-  },
   "Remotive": {
    "ok": true,
    "count": 16
   },
-  "RemoteOK": {
+  "Jobicy": {
    "ok": true,
-   "count": 97
+   "count": 100
   },
   "Working Nomads": {
    "ok": true,
    "count": 35
   },
-  "UNHCR, WFP": {
+  "RemoteOK": {
    "ok": true,
-   "count": 4
+   "count": 97
   },
   "Himalayas": {
    "ok": true,
    "count": 159
   },
-  "Health companies": {
+  "UNHCR, WFP": {
    "ok": true,
-   "count": 1032
+   "count": 4
   },
   "UN Careers": {
    "ok": true,
    "count": 448
   },
+  "Health companies": {
+   "ok": true,
+   "count": 1036
+  },
   "UNDP": {
    "ok": true,
    "count": 12
-  },
-  "ICRC": {
-   "ok": true,
-   "count": 1
-  },
-  "Impactpool": {
-   "ok": true,
-   "count": 61
   },
   "Pharma companies": {
    "ok": true,
    "count": 54
   },
+  "ICRC": {
+   "ok": true,
+   "count": 1
+  },
   "CROs": {
    "ok": true,
-   "count": 69
+   "count": 96
+  },
+  "Impactpool": {
+   "ok": true,
+   "count": 61
   }
  },
  "jobs": [
@@ -109,8 +109,8 @@
    "egypt": true,
    "intl": false,
    "pharma": true,
-   "deadline": "2026-11-30T22:00:00Z",
-   "posted": "2026-10-18T15:11:21Z",
+   "deadline": "2026-12-01T00:00:00Z",
+   "posted": "2026-10-18T16:10:27Z",
    "score": 81,
    "reasons": [
     "Pharmacy role",
@@ -142,8 +142,8 @@
    "egypt": true,
    "intl": false,
    "pharma": true,
-   "deadline": "2026-11-17T22:00:00Z",
-   "posted": "2026-11-10T15:11:21Z",
+   "deadline": "2026-11-18T00:00:00Z",
+   "posted": "2026-11-10T16:10:27Z",
    "score": 64,
    "reasons": [
     "Asks for a pharmacy background",
@@ -317,13 +317,13 @@
    "fails": 0
   },
   "wuzzuf": {
-   "state": "ok",
-   "code": 200,
+   "state": "unknown",
+   "code": 403,
    "fails": 0
   },
   "bayt": {
-   "state": "unknown",
-   "code": 403,
+   "state": "ok",
+   "code": 200,
    "fails": 0
   },
   "linkedin": {
@@ -332,8 +332,8 @@
    "fails": 0
   },
   "forasna": {
-   "state": "ok",
-   "code": 200,
+   "state": "unknown",
+   "code": 403,
    "fails": 0
   },
   "eda": {
@@ -343,18 +343,18 @@
   }
  },
  "health": {
-  "Jobicy": 0,
   "Remotive": 0,
-  "RemoteOK": 0,
+  "Jobicy": 0,
   "Working Nomads": 0,
-  "UNHCR, WFP": 0,
+  "RemoteOK": 0,
   "Himalayas": 0,
-  "Health companies": 0,
+  "UNHCR, WFP": 0,
   "UN Careers": 0,
+  "Health companies": 0,
   "UNDP": 0,
-  "ICRC": 0,
-  "Impactpool": 0,
   "Pharma companies": 0,
-  "CROs": 0
+  "ICRC": 0,
+  "CROs": 0,
+  "Impactpool": 0
  }
 }
