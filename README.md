@@ -24,10 +24,10 @@ It runs for free: GitHub runs the search and hosts the page, and Telegram bots c
 
 | Source | What it covers |
 |---|---|
-| GSK, Pfizer, Novartis, AstraZeneca, Sanofi, Johnson & Johnson, Abbott, MSD | Their own careers sites, searched for Egypt |
+| GSK, Pfizer, Novartis, AstraZeneca, Sanofi, Johnson & Johnson, Abbott, MSD, Viatris, Boehringer Ingelheim, Merck KGaA | Their own careers sites, searched for Egypt |
 | IQVIA, Thermo Fisher (PPD), ICON | Clinical research companies, searched for Egypt, pharmacovigilance, drug safety and medical information |
 | Ergomed (PrimeVigilance), AbbVie, Veeva | Drug safety, pharma and life-science software jobs |
-| UN Careers, UNHCR, WFP, UNDP, ICRC | Their own career sites. UNICEF's site blocks automated access, so its jobs come through Impactpool |
+| UN Careers, UNHCR, WFP, UNDP, IOM, ICRC | Their own career sites. UNICEF's site blocks automated access, so its jobs come through Impactpool |
 | Impactpool | Jobs from WHO and many other UN agencies and NGOs, searched for pharmacy and medicines roles |
 | Himalayas, Remotive, RemoteOK, Working Nomads, Jobicy | Remote job boards |
 
@@ -48,7 +48,7 @@ To add a pharma company or CRO that uses Workday (its careers address contains `
 Your saved jobs are stored on each device. To copy them, open **Settings and sources**, tap **Copy code**, send the code to the other phone, paste it there and tap **Import code**.
 
 ### Apply directly
-Open **Apply directly** for Cairo hospitals, pharma companies, CROs, UN employers, free certificates (such as Good Clinical Practice) and job alerts. Each one has a tip. Mark each one To do, Started, Applied or Accepted, and add notes. Three weeks after you mark one Applied, it suggests a follow-up.
+Open **Apply directly** for Cairo hospitals, the Unified Procurement Authority, pharma companies, CROs, UN employers, free certificates (such as Good Clinical Practice) and job alerts. Each one has a tip. Mark each one To do, Started, Applied or Accepted, and add notes. Three weeks after you mark one Applied, it suggests a follow-up.
 
 The list is in `docs/direct.json`, so places can be added or edited there. The daily run checks these links. If one fails two days in a row, the first Telegram chat (or `ADMIN_CHAT_ID`) gets a message and the card shows a warning. Sites that block automated checks are skipped rather than reported.
 

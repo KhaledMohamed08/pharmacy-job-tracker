@@ -208,6 +208,13 @@
     "group": "Government",
     "items": [
       {
+        "id": "upa",
+        "name": "Unified Procurement Authority",
+        "link": "https://www.upa.gov.eg/",
+        "what": "Egypt's central buyer of medicines and medical supplies for public hospitals, based in Cairo. It employs many pharmacists in procurement, supply and quality.",
+        "tip": "A strong fit for supply chain and procurement experience. Check its site and LinkedIn page for vacancy announcements."
+      },
+      {
         "id": "eda",
         "name": "Egyptian Drug Authority",
         "link": "https://www.edaegypt.gov.eg/",

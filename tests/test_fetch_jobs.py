@@ -238,6 +238,32 @@ class Duplicates(unittest.TestCase):
         self.assertEqual(len(f.merge_duplicates([a, later])), 2)  # a different post with the same title
 
 
+class NewSources(unittest.TestCase):
+    def test_merck_kgaa_reads_results_embedded_in_the_page(self):
+        page = ('<script>phApp.ddo = {"eagerLoadRefineSearch":{"status":200,"hits":1,"totalHits":1,"data":{"jobs":'
+                '[{"title":"Regulatory Affairs Specialist","jobId":"R123","cityStateCountry":"Cairo, Egypt",'
+                '"descriptionTeaser":"Drug registration","postedDate":"2026-11-10T00:00:00.000+0000"}]}},"other":1};</script>')
+        with mock.patch.object(f, "http", lambda url, **kw: page):
+            jobs = f.src_merck_kgaa()
+        self.assertEqual(jobs[0]["title"], "Regulatory Affairs Specialist")
+        self.assertEqual(jobs[0]["location"], "Cairo, Egypt")
+        self.assertTrue(jobs[0]["pharma"])
+        self.assertTrue(jobs[0]["url"].endswith("/job/R123"))
+
+    def test_successfactors_tile_layout_gives_the_location(self):
+        page = ('<li class="job-tile job-id-1 job-row-index-1"><a href="/job/Cairo-QA-Pharmacist/1/">QA Pharmacist</a>'
+                '<div class="section-field location fontcolor1"><span>Location</span> Cairo, Egypt</div></li>')
+        calls = []
+        def fake(url, **kw):
+            calls.append(url)
+            return page if "/search/" in url else "GMP site. Pharmacist."
+        with mock.patch.object(f, "http", fake):
+            jobs = f.src_boehringer()
+        self.assertEqual(jobs[0]["location"], "Cairo, Egypt")
+        self.assertTrue(f.score(jobs[0]))
+        self.assertIn("q=Egypt", calls[0])
+
+
 class TimeLimit(unittest.TestCase):
     def test_requests_stop_once_the_run_is_out_of_time(self):
         with mock.patch.object(f, "DEADLINE", [f.time.time() - 1]), \

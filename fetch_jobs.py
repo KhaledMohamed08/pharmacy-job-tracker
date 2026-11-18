@@ -171,6 +171,7 @@ PHARMA_WORKDAY = [  # (label, tenant host, tenant, site)
     ("Johnson & Johnson", "jj.wd5", "jj", "JJ"),
     ("Abbott", "abbott.wd5", "abbott", "abbottcareers"),
     ("MSD", "msd.wd5", "msd", "SearchJobs"),
+    ("Viatris", "viatris.wd5", "viatris", "External"),
 ]
 CRO_WORKDAY = [
     ("IQVIA", "iqvia.wd1", "iqvia", "IQVIA"),
@@ -346,11 +347,11 @@ def src_undp():
                        "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1")
 
 
-def src_successfactors(org, base):
+def src_successfactors(org, base, query="", intl=True):
     """Search pages only: robots.txt disallows the RSS feed on these sites."""
     out, seen = [], set()
     for row in range(0, 200, 25):
-        body = http(f"{base}/search/?q=&startrow={row}")
+        body = http(f"{base}/search/?" + urllib.parse.urlencode({"q": query, "startrow": row}))
         rows = re.split(r'class="data-row|class="job-tile job-id-', body)[1:]
         for r in rows:
             m = re.search(r'href="(/job/[^"]+)"[^>]*>(.*?)</a>', r, re.S)
@@ -359,20 +360,48 @@ def src_successfactors(org, base):
             seen.add(m.group(1))
             title = strip_html(m.group(2))
             place = re.search(r'class="jobLocation[^"]*">(.*?)</span>', r, re.S) \
+                or re.search(r'class="section-field location[^"]*"[^>]*>(.*?)</div>', r, re.S) \
                 or re.search(r'Country\s*</span>\s*<[^>]*>(.*?)<', r, re.S)
-            loc = strip_html(place.group(1)) if place else ""
+            loc = re.sub(r"^Location\s*", "", strip_html(place.group(1))) if place else ""
             if not plausible(title, loc):
                 continue
             text = strip_html(http(base + m.group(1)))
             d = re.search(r"(?:deadline|closing date)[^:]{0,50}:\s*(\d{2}/\d{2}/\d{4}|\d{1,2} \w+ \d{4})", text, re.I)
             out.append(job(org, org, title, base + m.group(1), location=loc, text=text,
                            remote=looks_remote(title, loc), deadline=d.group(1) if d else None,
-                           intl=True, check_location=False))
+                           intl=intl, check_location=not intl, pharma=not intl))
         if len(rows) < 25:
             break
-    if not seen:
+    if not seen and not query:
         raise RuntimeError("no rows found")
     return out
+
+
+def src_boehringer():
+    return src_successfactors("Boehringer Ingelheim", "https://jobs.boehringer-ingelheim.com", "Egypt", intl=False)
+
+
+def src_merck_kgaa():
+    """Merck KGaA (Phenom careers site): the search results are embedded in the page."""
+    out = []
+    for q in ("Egypt", "Cairo"):
+        body = http("https://careers.merckgroup.com/global/en/search-results?" + urllib.parse.urlencode({"keywords": q}))
+        i = body.find('"eagerLoadRefineSearch"')
+        if i < 0:
+            raise RuntimeError("search results not found on the page")
+        data, _ = json.JSONDecoder().raw_decode(body, body.index("{", i))
+        for j in (data.get("data") or {}).get("jobs", []):
+            loc = j.get("cityStateCountry") or j.get("location") or ""
+            out.append(job("Merck KGaA", "Merck KGaA", j.get("title"),
+                           f"https://careers.merckgroup.com/global/en/job/{j.get('jobId')}",
+                           location=loc, text=j.get("descriptionTeaser", ""),
+                           remote=looks_remote(j.get("title"), loc), posted=j.get("postedDate"), pharma=True))
+    return out
+
+
+def src_iom():
+    return oracle_jobs("IOM", "https://fa-evlj-saasfaprod1.fa.ocs.oraclecloud.com", "CX_1001",
+                       "https://fa-evlj-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001")
 
 
 def src_icrc():
@@ -464,11 +493,13 @@ def src_jobicy():
 
 
 # These only return plausible matches, so 0 can be normal (they raise if the site itself fails).
-PREFILTERED = {"UNHCR, WFP", "Pharma companies", "CROs", "UNDP", "ICRC", "Impactpool"}
+PREFILTERED = {"UNHCR, WFP", "Pharma companies", "CROs", "UNDP", "ICRC", "IOM", "Impactpool",
+               "Boehringer Ingelheim", "Merck KGaA"}
 SOURCES = {
     "UN Careers": src_un_careers,
     "UNHCR, WFP": src_workday, "Pharma companies": src_pharma_companies, "CROs": src_cros,
-    "Impactpool": src_impactpool, "UNDP": src_undp, "ICRC": src_icrc,
+    "Impactpool": src_impactpool, "UNDP": src_undp, "ICRC": src_icrc, "IOM": src_iom,
+    "Boehringer Ingelheim": src_boehringer, "Merck KGaA": src_merck_kgaa,
     "Health companies": src_health_companies, "Himalayas": src_himalayas, "Remotive": src_remotive,
     "RemoteOK": src_remoteok, "Working Nomads": src_workingnomads, "Jobicy": src_jobicy,
 }
