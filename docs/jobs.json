@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T16:10:27Z",
+ "updated": "2026-11-18T12:34:06Z",
  "areas": [
   "Hospital & clinical",
   "Drug safety",
@@ -13,49 +13,49 @@
    "ok": true,
    "count": 16
   },
-  "Jobicy": {
-   "ok": true,
-   "count": 100
-  },
   "Working Nomads": {
    "ok": true,
    "count": 35
+  },
+  "Jobicy": {
+   "ok": true,
+   "count": 100
   },
   "RemoteOK": {
    "ok": true,
    "count": 97
   },
-  "Himalayas": {
+  "ICRC": {
    "ok": true,
-   "count": 159
+   "count": 1
   },
   "UNHCR, WFP": {
    "ok": true,
    "count": 4
   },
-  "UN Careers": {
-   "ok": true,
-   "count": 448
-  },
   "Health companies": {
    "ok": true,
    "count": 1036
+  },
+  "UN Careers": {
+   "ok": true,
+   "count": 447
+  },
+  "Himalayas": {
+   "ok": false,
+   "error": "HTTP Error 429: Too Many Requests"
+  },
+  "Pharma companies": {
+   "ok": true,
+   "count": 57
   },
   "UNDP": {
    "ok": true,
    "count": 12
   },
-  "Pharma companies": {
-   "ok": true,
-   "count": 54
-  },
-  "ICRC": {
-   "ok": true,
-   "count": 1
-  },
   "CROs": {
    "ok": true,
-   "count": 96
+   "count": 93
   },
   "Impactpool": {
    "ok": true,
@@ -93,8 +93,8 @@
     "years": 5
    },
    "apply_email": "",
-   "snippet": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (14 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the",
-   "details": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (14 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the Middle East and North Africa region. The incumbent will manage complex procurement processes, including construction projects, and ensure compliance with UN policies. Responsibilities include developing procurement strategies, conducting negotiations, and providing training to staff. The role requires collaboration with various stakeholders and adherence to financial regulations. Candidate Requirements: Advanced university degree in business administration, commerce, engineering, law or related field Professional certification in supply chains (CIPS Level 4 or equivalent) Minimum five years of professional work experience in procurement Experience with Enterprise Resource Planning (ERP) systems Experience with construction projects and procurement of architectural services Experience managing a team within the UN system or international organization Proficiency in English; French or Arabic desirable Org. Setting and Reporting This position is located in the Regional Office for the Middle East and North Africa (ROMENA) of the United Nations Office on Drugs and Crime (UNODC) in Cairo, Egypt. As Head of the Middle East and North Africa Procurement Hub, the incumbent works under the direct supervision of the Chief Procurement Officer (UNOV/UNODC Procurement Unit, Vienna), and the overall guidance of the UNODC Regional Representative for the Middle East and Nort",
+   "snippet": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (13 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the",
+   "details": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (13 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the Middle East and North Africa region. The incumbent will manage complex procurement processes, including construction projects, and ensure compliance with UN policies. Responsibilities include developing procurement strategies, conducting negotiations, and providing training to staff. The role requires collaboration with various stakeholders and adherence to financial regulations. Candidate Requirements: Advanced university degree in business administration, commerce, engineering, law or related field Professional certification in supply chains (CIPS Level 4 or equivalent) Minimum five years of professional work experience in procurement Experience with Enterprise Resource Planning (ERP) systems Experience with construction projects and procurement of architectural services Experience managing a team within the UN system or international organization Proficiency in English; French or Arabic desirable Org. Setting and Reporting This position is located in the Regional Office for the Middle East and North Africa (ROMENA) of the United Nations Office on Drugs and Crime (UNODC) in Cairo, Egypt. As Head of the Middle East and North Africa Procurement Hub, the incumbent works under the direct supervision of the Chief Procurement Officer (UNOV/UNODC Procurement Unit, Vienna), and the overall guidance of the UNODC Regional Representative for the Middle East and Nort",
    "first_seen": "2026-11-17T15:11:21Z"
   },
   {
@@ -110,7 +110,7 @@
    "intl": false,
    "pharma": true,
    "deadline": "2026-12-01T00:00:00Z",
-   "posted": "2026-10-18T16:10:27Z",
+   "posted": "2026-10-19T12:34:06Z",
    "score": 81,
    "reasons": [
     "Pharmacy role",
@@ -131,40 +131,36 @@
    "first_seen": "2026-11-17T15:11:21Z"
   },
   {
-   "id": "operationqualitysectionheadgsk",
-   "title": "Operation Quality Section Head",
-   "org": "GSK",
-   "source": "GSK",
+   "id": "productionpharmacistspecialistnonsterilesolidsliquidssanofi",
+   "title": "Production Pharmacist Specialist (Non-Sterile Solids /Liquids)",
+   "org": "Sanofi",
+   "source": "Sanofi",
    "feed": "Pharma companies",
-   "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/Egypt---Cairo/Operation-Quality-Section-Head_450960",
-   "location": "Egypt - Cairo",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Cairo/Production-Pharmacist-Specialist--Non-Sterile-Solids--Liquids-_R2873370",
+   "location": "Cairo",
    "remote": false,
    "egypt": true,
    "intl": false,
    "pharma": true,
-   "deadline": "2026-11-18T00:00:00Z",
-   "posted": "2026-11-10T16:10:27Z",
-   "score": 64,
+   "deadline": "2026-12-04T00:00:00Z",
+   "posted": "2026-11-18T12:34:06Z",
+   "score": 73,
    "reasons": [
-    "Asks for a pharmacy background",
-    "Arabic is a plus",
-    "Based in Greater Cairo",
-    "Asks 5+ years"
+    "Pharmacy role",
+    "Based in Greater Cairo"
    ],
    "areas": [
-    "Regulatory",
-    "Quality",
-    "Supply & procurement"
+    "Quality"
    ],
-   "role": false,
+   "role": true,
    "facts": {
     "quals": "B.Pharm",
-    "years": 5
+    "years": 2
    },
    "apply_email": "",
-   "snippet": "Scope: Supervising the OQ activities related to the release of manufactured batches, ensuring compliance with Good Manufacturing Practices (GMP), Corporate Quality Standards, and local/international regulations. The role ensures the execution and continuous improvement of quality systems, deviation investigations, audit readiness, and operational quality oversight across the Value Stream. Key Responsibilities: In thi",
-   "details": "Scope: Supervising the OQ activities related to the release of manufactured batches, ensuring compliance with Good Manufacturing Practices (GMP), Corporate Quality Standards, and local/international regulations. The role ensures the execution and continuous improvement of quality systems, deviation investigations, audit readiness, and operational quality oversight across the Value Stream. Key Responsibilities: In this role, you will be responsible for the following: Quality Oversight & Compliance Drive and strengthen quality culture across all value stream operations. Define and maintain the scope and risk-based frequency of Quality Oversight activities across manufacturing, processing, packaging, and supporting functions. Supervise OQ Officers in executing routine oversight activities and ensuring GMP compliance. Monitor oversight coverage, execution, overdue activities, and related actions. Evaluate oversight effectiveness and drive continuous improvement. Ensure implementation and compliance with site QMS, GMP, GMS, and regulatory requirements. Quality Systems & Performance Management Lead and oversee deviations, OOS/OOT investigations, complaints, CAPAs, quality incidents, rework, and reprocessing activities, ensuring robust investigations and timely closure. Drive quality performance improvement through monitoring of site KPIs, quality trends, periodic system reviews, and Quality Improvement Programs (QIPs). Prepare and present periodic quality performance and system reviews to the Site Quality Council. Review and approve relevant quality risk assessments, product lifecycle activities, validation documents, and periodic product reviews. Manage and coordinate product quality incidents with relevant site quality functions. Drive inspection readiness through GEMBAs, S",
-   "first_seen": "2026-11-17T15:11:21Z"
+   "snippet": "About the job Join our Manufacturing team as a Production Pharmacist Specialist in the Non-Sterile Solids and Liquids area, where you'll make sure monthly and weekly production plans are delivered in line with Sanofi and GMP requirements. You will supervise operators and workers in coordination with the section head, while driving KPIs, team capability, and compliance across the production and packaging areas. Main r",
+   "details": "About the job Join our Manufacturing team as a Production Pharmacist Specialist in the Non-Sterile Solids and Liquids area, where you'll make sure monthly and weekly production plans are delivered in line with Sanofi and GMP requirements. You will supervise operators and workers in coordination with the section head, while driving KPIs, team capability, and compliance across the production and packaging areas. Main responsibilities: Implement GMP concepts through daily work Keep the division KPIs within objectives Improve personnel capabilities Fulfill the monthly and weekly production plans according to the schedule Supervise the duties of subordinates, operators, and other workers, in coordination with the section head Monitor product activities in compliance with Sanofi and GMP requirements Ensure that all standard yields are maintained by production lines Ensure general cleanliness and hygienic conditions of the packaging area and personnel Ensure that all production equipment is maintained in good working condition Make sure the on-the-job training of production personnel is up to date Respect standard labor and machine hours Ensure production personnel follow the gowning procedure before entering production areas Check the availability of adequate materials and utilities in the department Decide whether to reject or use materials, either before use upon trials or when discovered in process Update SOPs used in the production areas Train subordinates, operators, and workers on GMP and HSE guides Local specificities: Perform other duties as assigned Respect company values, code of ethics, and Social Charter Respect the personal data protection charter Apply the HSE-related requirements of the company in all related working procedures About you Education Bachelor's de",
+   "first_seen": "2026-11-18T12:34:06Z"
   },
   {
    "id": "intersectionalimportationandcustomsspecialist",
@@ -192,9 +188,42 @@
    "role": false,
    "facts": {},
    "apply_email": "",
-   "snippet": "Intersectional Importation and Customs Specialist MSF International - Médecins Sans Frontières (Doctors Without Borders) Remote | office, Any International Mid level Application deadline: November 22, 2026 (5 days) Apply Summary by Impactpool The Intersectional Importation and Customs Specialist at MSF will provide strategic, technical, and hands-on support on importation and customs matters to improve compliance, co",
-   "details": "Intersectional Importation and Customs Specialist MSF International - Médecins Sans Frontières (Doctors Without Borders) Remote | office, Any International Mid level Application deadline: November 22, 2026 (5 days) Apply Summary by Impactpool The Intersectional Importation and Customs Specialist at MSF will provide strategic, technical, and hands-on support on importation and customs matters to improve compliance, cost-efficiency, and operational continuity. This role involves collaborating with various stakeholders to analyze and enhance importation processes, develop policies, and provide training. The specialist will also conduct assessments and support country programs in navigating complex importation challenges. The position requires strong analytical skills and the ability to work in cross-functional teams within a diverse and complex environment. Candidate Requirements: Strong analytical and problem-solving skills Ability to work autonomously and in cross-functional teams Experience in importation and customs processes Knowledge of legal and regulatory frameworks Ability to manage competing priorities Experience in training and capacity building Ability to engage with diverse stakeholders Experience in complex, cross-cultural environments Location: Any MSF office* Contract: Fixed-term at 100% Duration: 12 months Starting date: 01st of January 2027 Deadline to apply: 22nd of November 2026 Compensation and Benefits: MSF practice is to offer the compensation and benefits package in line with the MSF entity offering the contract *By default, the successful candidate will be offered a contract in the MSF office, able to issue a contract, of their country of residence at the time of application. If no MSF office exists in their country of residence, the successful can",
+   "snippet": "Intersectional Importation and Customs Specialist MSF International - Médecins Sans Frontières (Doctors Without Borders) Remote | office, Any International Mid level Application deadline: November 22, 2026 Closing soon Apply Summary by Impactpool The Intersectional Importation and Customs Specialist at MSF will provide strategic, technical, and hands-on support on importation and customs matters to improve compliance",
+   "details": "Intersectional Importation and Customs Specialist MSF International - Médecins Sans Frontières (Doctors Without Borders) Remote | office, Any International Mid level Application deadline: November 22, 2026 Closing soon Apply Summary by Impactpool The Intersectional Importation and Customs Specialist at MSF will provide strategic, technical, and hands-on support on importation and customs matters to improve compliance, cost-efficiency, and operational continuity. This role involves collaborating with various stakeholders to analyze and enhance importation processes, develop policies, and provide training. The specialist will also conduct assessments and support country programs in navigating complex importation challenges. The position requires strong analytical skills and the ability to work in cross-functional teams within a diverse and complex environment. Candidate Requirements: Strong analytical and problem-solving skills Ability to work autonomously and in cross-functional teams Experience in importation and customs processes Knowledge of legal and regulatory frameworks Ability to manage competing priorities Experience in training and capacity building Ability to engage with diverse stakeholders Experience in complex, cross-cultural environments Location: Any MSF office* Contract: Fixed-term at 100% Duration: 12 months Starting date: 01st of January 2027 Deadline to apply: 22nd of November 2026 Compensation and Benefits: MSF practice is to offer the compensation and benefits package in line with the MSF entity offering the contract *By default, the successful candidate will be offered a contract in the MSF office, able to issue a contract, of their country of residence at the time of application. If no MSF office exists in their country of residence, the successful",
    "first_seen": "2026-11-17T15:11:21Z"
+  },
+  {
+   "id": "seniorproductionpharmacistsanofi",
+   "title": "Senior Production Pharmacist",
+   "org": "Sanofi",
+   "source": "Sanofi",
+   "feed": "Pharma companies",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Cairo/Senior-Production-Pharmacist_R2874121",
+   "location": "Cairo",
+   "remote": false,
+   "egypt": true,
+   "intl": false,
+   "pharma": true,
+   "deadline": "2026-12-04T00:00:00Z",
+   "posted": "2026-11-18T12:34:06Z",
+   "score": 58,
+   "reasons": [
+    "Pharmacy role",
+    "Based in Greater Cairo",
+    "Senior level"
+   ],
+   "areas": [
+    "Quality"
+   ],
+   "role": true,
+   "facts": {
+    "quals": "B.Pharm",
+    "years": 3
+   },
+   "apply_email": "",
+   "snippet": "About the job Join our Manufacturing team in the Solids area, where you'll ensure that weekly and monthly production plans are met in line with Sanofi and GMP requirements. You will supervise operators and workers, in coordination with the Solid Section Head, while driving KPIs, team capability, and a strong HSE culture across the production and packaging areas. Main responsibilities: Fulfill the Solid Area plan for ",
+   "details": "About the job Join our Manufacturing team in the Solids area, where you'll ensure that weekly and monthly production plans are met in line with Sanofi and GMP requirements. You will supervise operators and workers, in coordination with the Solid Section Head, while driving KPIs, team capability, and a strong HSE culture across the production and packaging areas. Main responsibilities: Fulfill the Solid Area plan for products weekly Implement GMP concepts through daily work Keep the division KPIs within objectives Improve personnel capabilities Fulfill the monthly and weekly production plans according to the schedule Supervise the duties of subordinates, operators, and other workers, in coordination with the Solid Section Head Monitor product activities in compliance with Sanofi and GMP requirements Ensure that all standard yields are maintained by production lines Ensure general cleanliness and hygienic conditions of the packaging area and personnel Ensure that all production equipment is maintained in good working condition Make sure the on-the-job training of production personnel is up to date Respect standard labor and machine hours Ensure production personnel follow the gowning procedure before entering production areas Check the availability of adequate materials and utilities in the department Decide whether to reject or use materials, either before use upon trials or when discovered in process Update SOPs used in the production areas Train subordinates, operators, and workers on GMP, HSE guides, and SOPs HSE responsibilities: Apply the machine safety checklist on a regular basis Deliver ergonomics training on a regular basis Commit to appropriate PPE use Ensure that risk assessments for any newly transferred product and new machine are adequately covered Continuo",
+   "first_seen": "2026-11-18T12:34:06Z"
   }
  ],
  "seen": {
@@ -207,9 +236,11 @@
   "haematologymedicalscientificliaisongsk": "2026-11-17T15:11:21Z",
   "intersectionalimportationandcustomsspecialist": "2026-11-17T15:11:21Z",
   "marketingmanagerhematologygsk": "2026-11-17T15:11:21Z",
-  "marketingmanagerspecialtygsk": "2026-11-17T15:11:21Z"
+  "marketingmanagerspecialtygsk": "2026-11-17T15:11:21Z",
+  "productionpharmacistspecialistnonsterilesolidsliquidssanofi": "2026-11-18T12:34:06Z",
+  "seniorproductionpharmacistsanofi": "2026-11-18T12:34:06Z"
  },
- "quote_index": 1,
+ "quote_index": 2,
  "links": {
   "57357": {
    "state": "unknown",
@@ -344,16 +375,16 @@
  },
  "health": {
   "Remotive": 0,
-  "Jobicy": 0,
   "Working Nomads": 0,
+  "Jobicy": 0,
   "RemoteOK": 0,
-  "Himalayas": 0,
-  "UNHCR, WFP": 0,
-  "UN Careers": 0,
-  "Health companies": 0,
-  "UNDP": 0,
-  "Pharma companies": 0,
   "ICRC": 0,
+  "UNHCR, WFP": 0,
+  "Health companies": 0,
+  "UN Careers": 0,
+  "Himalayas": 1,
+  "Pharma companies": 0,
+  "UNDP": 0,
   "CROs": 0,
   "Impactpool": 0
  }
