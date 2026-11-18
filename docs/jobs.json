@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T12:52:27Z",
+ "updated": "2026-11-18T13:38:14Z",
  "areas": [
   "Hospital & clinical",
   "Drug safety",
@@ -33,13 +33,13 @@
    "ok": true,
    "count": 2
   },
+  "Health companies": {
+   "ok": true,
+   "count": 1036
+  },
   "IOM": {
    "ok": true,
    "count": 1
-  },
-  "Himalayas": {
-   "ok": true,
-   "count": 159
   },
   "ICRC": {
    "ok": true,
@@ -53,10 +53,6 @@
    "ok": true,
    "count": 447
   },
-  "Health companies": {
-   "ok": true,
-   "count": 1036
-  },
   "Pharma companies": {
    "ok": true,
    "count": 62
@@ -64,6 +60,10 @@
   "UNDP": {
    "ok": true,
    "count": 13
+  },
+  "Himalayas": {
+   "ok": false,
+   "error": "HTTP Error 429: Too Many Requests"
   },
   "CROs": {
    "ok": true,
@@ -122,7 +122,7 @@
    "intl": false,
    "pharma": true,
    "deadline": "2026-12-01T00:00:00Z",
-   "posted": "2026-10-19T12:52:27Z",
+   "posted": "2026-10-19T13:38:14Z",
    "score": 81,
    "reasons": [
     "Pharmacy role",
@@ -155,7 +155,7 @@
    "intl": false,
    "pharma": true,
    "deadline": "2026-11-19T00:00:00Z",
-   "posted": "2026-11-12T12:52:27Z",
+   "posted": "2026-11-12T13:38:14Z",
    "score": 77,
    "reasons": [
     "Pharmacy role",
@@ -189,7 +189,7 @@
    "intl": false,
    "pharma": true,
    "deadline": "2026-12-04T00:00:00Z",
-   "posted": "2026-11-18T12:52:27Z",
+   "posted": "2026-11-18T13:38:14Z",
    "score": 73,
    "reasons": [
     "Pharmacy role",
@@ -251,7 +251,7 @@
    "intl": false,
    "pharma": true,
    "deadline": "2026-12-04T00:00:00Z",
-   "posted": "2026-11-18T12:52:27Z",
+   "posted": "2026-11-18T13:38:14Z",
    "score": 58,
    "reasons": [
     "Pharmacy role",
@@ -432,14 +432,14 @@
   "RemoteOK": 0,
   "Merck KGaA": 0,
   "Boehringer Ingelheim": 0,
+  "Health companies": 0,
   "IOM": 0,
-  "Himalayas": 0,
   "ICRC": 0,
   "UNHCR, WFP": 0,
   "UN Careers": 0,
-  "Health companies": 0,
   "Pharma companies": 0,
   "UNDP": 0,
+  "Himalayas": 1,
   "CROs": 0,
   "Impactpool": 0
  }
