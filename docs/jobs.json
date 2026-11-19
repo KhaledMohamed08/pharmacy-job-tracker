@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T13:38:14Z",
+ "updated": "2026-11-19T14:04:00Z",
  "areas": [
   "Hospital & clinical",
   "Drug safety",
@@ -9,33 +9,29 @@
   "Supply & procurement"
  ],
  "sources": {
-  "Remotive": {
-   "ok": true,
-   "count": 16
-  },
   "Jobicy": {
    "ok": true,
    "count": 100
   },
+  "Remotive": {
+   "ok": true,
+   "count": 16
+  },
   "Working Nomads": {
    "ok": true,
-   "count": 35
+   "count": 37
   },
   "RemoteOK": {
    "ok": true,
    "count": 97
   },
-  "Merck KGaA": {
-   "ok": true,
-   "count": 12
-  },
   "Boehringer Ingelheim": {
    "ok": true,
    "count": 2
   },
-  "Health companies": {
+  "Merck KGaA": {
    "ok": true,
-   "count": 1036
+   "count": 12
   },
   "IOM": {
    "ok": true,
@@ -47,19 +43,23 @@
   },
   "UNHCR, WFP": {
    "ok": true,
-   "count": 4
+   "count": 3
   },
   "UN Careers": {
    "ok": true,
-   "count": 447
+   "count": 446
   },
   "Pharma companies": {
    "ok": true,
-   "count": 62
+   "count": 55
   },
   "UNDP": {
    "ok": true,
-   "count": 13
+   "count": 12
+  },
+  "Health companies": {
+   "ok": true,
+   "count": 1034
   },
   "Himalayas": {
    "ok": false,
@@ -67,11 +67,11 @@
   },
   "CROs": {
    "ok": true,
-   "count": 93
+   "count": 94
   },
   "Impactpool": {
    "ok": true,
-   "count": 61
+   "count": 63
   }
  },
  "jobs": [
@@ -105,8 +105,8 @@
     "years": 5
    },
    "apply_email": "",
-   "snippet": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (13 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the",
-   "details": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (13 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the Middle East and North Africa region. The incumbent will manage complex procurement processes, including construction projects, and ensure compliance with UN policies. Responsibilities include developing procurement strategies, conducting negotiations, and providing training to staff. The role requires collaboration with various stakeholders and adherence to financial regulations. Candidate Requirements: Advanced university degree in business administration, commerce, engineering, law or related field Professional certification in supply chains (CIPS Level 4 or equivalent) Minimum five years of professional work experience in procurement Experience with Enterprise Resource Planning (ERP) systems Experience with construction projects and procurement of architectural services Experience managing a team within the UN system or international organization Proficiency in English; French or Arabic desirable Org. Setting and Reporting This position is located in the Regional Office for the Middle East and North Africa (ROMENA) of the United Nations Office on Drugs and Crime (UNODC) in Cairo, Egypt. As Head of the Middle East and North Africa Procurement Hub, the incumbent works under the direct supervision of the Chief Procurement Officer (UNOV/UNODC Procurement Unit, Vienna), and the overall guidance of the UNODC Regional Representative for the Middle East and Nort",
+   "snippet": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (12 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the",
+   "details": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (12 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the Middle East and North Africa region. The incumbent will manage complex procurement processes, including construction projects, and ensure compliance with UN policies. Responsibilities include developing procurement strategies, conducting negotiations, and providing training to staff. The role requires collaboration with various stakeholders and adherence to financial regulations. Candidate Requirements: Advanced university degree in business administration, commerce, engineering, law or related field Professional certification in supply chains (CIPS Level 4 or equivalent) Minimum five years of professional work experience in procurement Experience with Enterprise Resource Planning (ERP) systems Experience with construction projects and procurement of architectural services Experience managing a team within the UN system or international organization Proficiency in English; French or Arabic desirable Org. Setting and Reporting This position is located in the Regional Office for the Middle East and North Africa (ROMENA) of the United Nations Office on Drugs and Crime (UNODC) in Cairo, Egypt. As Head of the Middle East and North Africa Procurement Hub, the incumbent works under the direct supervision of the Chief Procurement Officer (UNOV/UNODC Procurement Unit, Vienna), and the overall guidance of the UNODC Regional Representative for the Middle East and Nort",
    "first_seen": "2026-11-17T15:11:21Z"
   },
   {
@@ -122,7 +122,7 @@
    "intl": false,
    "pharma": true,
    "deadline": "2026-12-01T00:00:00Z",
-   "posted": "2026-10-19T13:38:14Z",
+   "posted": "2026-10-20T14:04:00Z",
    "score": 81,
    "reasons": [
     "Pharmacy role",
@@ -143,38 +143,34 @@
    "first_seen": "2026-11-17T15:11:21Z"
   },
   {
-   "id": "qualitycontrolanalystviatris",
-   "title": "Quality Control Analyst",
-   "org": "Viatris",
-   "source": "Viatris",
+   "id": "liquidsproductionpharmacistsanofi",
+   "title": "Liquids Production Pharmacist",
+   "org": "Sanofi",
+   "source": "Sanofi",
    "feed": "Pharma companies",
-   "url": "https://viatris.wd5.myworkdayjobs.com/External/job/Cairo-Cairo-Egypt/Quality-Control-Analyst_R5675793",
-   "location": "Cairo, Cairo, Egypt",
+   "url": "https://sanofi.wd3.myworkdayjobs.com/SanofiCareers/job/Cairo/Liquids-Production-Pharmacist_R2858734",
+   "location": "Cairo",
    "remote": false,
    "egypt": true,
    "intl": false,
    "pharma": true,
-   "deadline": "2026-11-19T00:00:00Z",
-   "posted": "2026-11-12T13:38:14Z",
-   "score": 77,
+   "deadline": "2026-12-04T00:00:00Z",
+   "posted": "2026-11-19T14:04:00Z",
+   "score": 81,
    "reasons": [
     "Pharmacy role",
-    "Based in Greater Cairo",
-    "Asks 5+ years"
+    "Based in Greater Cairo"
    ],
    "areas": [
     "Quality",
     "Supply & procurement"
    ],
    "role": true,
-   "facts": {
-    "quals": "B.Pharm",
-    "years": 5
-   },
+   "facts": {},
    "apply_email": "",
-   "snippet": "Viatris Egypt S.A.E Viatris is a global healthcare company uniquely positioned to bridge the traditional divide between generics and brands, combining the best of both to more holistically address healthcare needs globally. With a mission to empower people worldwide to live healthier at every stage of life, we provide access at scale, currently supplying high-quality medicines to approximately 1 billion patients arou",
-   "details": "Viatris Egypt S.A.E Viatris is a global healthcare company uniquely positioned to bridge the traditional divide between generics and brands, combining the best of both to more holistically address healthcare needs globally. With a mission to empower people worldwide to live healthier at every stage of life, we provide access at scale, currently supplying high-quality medicines to approximately 1 billion patients around the world annually and touching all of life's moments, from birth to the end of life, acute conditions to chronic diseases. We have been included on number of award lists that demonstrate the impact we are making. Every day, we rise to the challenge to make a difference and here’s how the Quality Control Analyst (Microbiology) role will make an impact: Position summary: Responsible for the QC microbiology laboratory functions and the corresponding documentation to support the timely disposition of product. Job Specific technical/Functional/Professional Competencies: Perform routine and non-routine microbiological testing of finished products, raw materials, utilities, and water systems in accordance with approved procedures. Perform environmental monitoring (viable and non-viable, where applicable) of classified manufacturing and laboratory areas and report any potential contamination sources to the Microbiology Supervisor. Perform growth promotion testing of culture media and maintain all associated records. Perform microbiological method suitability studies and verification activities as required. Perform disinfectant efficacy studies and support periodic requalification of disinfectants used within manufacturing and laboratory areas. Prepare, sterilize, qualify, and maintain microbiological culture media in accordance with approved procedures. Perform ",
-   "first_seen": "2026-11-18T12:52:27Z"
+   "snippet": "About Sanofi: We’re an R&D-driven, AI-powered biopharma company committed to improving people’s lives and delivering compelling growth. Our deep understanding of the immune system – and innovative pipeline – enables us to invent medicines and vaccines that treat and protect millions of people around the world. Together, we chase the miracles of science to improve people’s lives. About the job Job Purpose: Supervise d",
+   "details": "About Sanofi: We’re an R&D-driven, AI-powered biopharma company committed to improving people’s lives and delivering compelling growth. Our deep understanding of the immune system – and innovative pipeline – enables us to invent medicines and vaccines that treat and protect millions of people around the world. Together, we chase the miracles of science to improve people’s lives. About the job Job Purpose: Supervise day to day activities of the production process in the liquid Area with ensuring strict implementation of the GMP & HSE rules and fulfill the production plan. Main Responsibilities: Supervising operators in liquid Area during the production process, assuring the process flow according to cGMP rules. Coaching of the pharmacists and Supervisors Responsible for new projects and Validation processes Aligning with Quality team and Engineering all the calibration and preventive maintenance activities in liquid Area Ensure implementation of measures for fulfillment of liquids department weekly production plan. Prevention of mix-up and cross contamination during manufacturing processes. Updating / Creating SOPs. Reporting any deviation occurring during manufacturing processes. Training new operators on different operations. Collection and Review of the batch manufacturing records. Reporting any problems in utilities /machines during the production process Assuring complied environmental monitoring to start manufacturing (differential pressures, temperature, and humidity) during the process. Check cleaning, disinfecting and clearance of machines, utensils and rooms according to SOPs approved by the Quality Assurance Department. Respect of company values, code of ethics and Social charter. HSE & Energy Role: 1. Applying the machine safety checklist on regular basis. 2.",
+   "first_seen": "2026-11-19T14:04:00Z"
   },
   {
    "id": "productionpharmacistspecialistnonsterilesolidsliquidssanofi",
@@ -189,7 +185,7 @@
    "intl": false,
    "pharma": true,
    "deadline": "2026-12-04T00:00:00Z",
-   "posted": "2026-11-18T13:38:14Z",
+   "posted": "2026-11-19T14:04:00Z",
    "score": 73,
    "reasons": [
     "Pharmacy role",
@@ -235,7 +231,7 @@
    "facts": {},
    "apply_email": "",
    "snippet": "Intersectional Importation and Customs Specialist MSF International - Médecins Sans Frontières (Doctors Without Borders) Remote | office, Any International Mid level Application deadline: November 22, 2026 Closing soon Apply Summary by Impactpool The Intersectional Importation and Customs Specialist at MSF will provide strategic, technical, and hands-on support on importation and customs matters to improve compliance",
-   "details": "Intersectional Importation and Customs Specialist MSF International - Médecins Sans Frontières (Doctors Without Borders) Remote | office, Any International Mid level Application deadline: November 22, 2026 Closing soon Apply Summary by Impactpool The Intersectional Importation and Customs Specialist at MSF will provide strategic, technical, and hands-on support on importation and customs matters to improve compliance, cost-efficiency, and operational continuity. This role involves collaborating with various stakeholders to analyze and enhance importation processes, develop policies, and provide training. The specialist will also conduct assessments and support country programs in navigating complex importation challenges. The position requires strong analytical skills and the ability to work in cross-functional teams within a diverse and complex environment. Candidate Requirements: Strong analytical and problem-solving skills Ability to work autonomously and in cross-functional teams Experience in importation and customs processes Knowledge of legal and regulatory frameworks Ability to manage competing priorities Experience in training and capacity building Ability to engage with diverse stakeholders Experience in complex, cross-cultural environments Location: Any MSF office* Contract: Fixed-term at 100% Duration: 12 months Starting date: 01st of January 2027 Deadline to apply: 22nd of November 2026 Compensation and Benefits: MSF practice is to offer the compensation and benefits package in line with the MSF entity offering the contract *By default, the successful candidate will be offered a contract in the MSF office, able to issue a contract, of their country of residence at the time of application. If no MSF office exists in their country of residence, the successful",
+   "details": "Intersectional Importation and Customs Specialist MSF International - Médecins Sans Frontières (Doctors Without Borders) Remote | office, Any International Mid level Application deadline: November 22, 2026 Closing soon Apply Summary by Impactpool The Intersectional Importation and Customs Specialist at MSF will provide strategic, technical, and hands-on support on importation and customs matters to improve compliance, cost-efficiency, and operational continuity. This role involves collaborating with various stakeholders to develop and implement MSF's intersectional I&C strategy, analyze existing processes, and propose improvements. The specialist will also provide structured support to country programs, conduct assessments, and engage with national authorities. The position requires strong analytical skills and the ability to operate in complex environments. Candidate Requirements: Strong analytical and problem-solving skills Ability to work autonomously and in cross-functional teams Experience in importation and customs processes Ability to manage competing priorities Experience in training and knowledge sharing Ability to engage with diverse stakeholders Location: Any MSF office* Contract: Fixed-term at 100% Duration: 12 months Starting date: 01st of January 2027 Deadline to apply: 22nd of November 2026 Compensation and Benefits: MSF practice is to offer the compensation and benefits package in line with the MSF entity offering the contract *By default, the successful candidate will be offered a contract in the MSF office, able to issue a contract, of their country of residence at the time of application. If no MSF office exists in their country of residence, the successful candidate will be expected to relocate to a country where an MSF office can issue a contract, p",
    "first_seen": "2026-11-17T15:11:21Z"
   },
   {
@@ -251,7 +247,7 @@
    "intl": false,
    "pharma": true,
    "deadline": "2026-12-04T00:00:00Z",
-   "posted": "2026-11-18T13:38:14Z",
+   "posted": "2026-11-19T14:04:00Z",
    "score": 58,
    "reasons": [
     "Pharmacy role",
@@ -285,9 +281,10 @@
   "marketingmanagerspecialtygsk": "2026-11-17T15:11:21Z",
   "productionpharmacistspecialistnonsterilesolidsliquidssanofi": "2026-11-18T12:34:06Z",
   "seniorproductionpharmacistsanofi": "2026-11-18T12:34:06Z",
-  "qualitycontrolanalystviatris": "2026-11-18T12:52:27Z"
+  "qualitycontrolanalystviatris": "2026-11-18T12:52:27Z",
+  "liquidsproductionpharmacistsanofi": "2026-11-19T14:04:00Z"
  },
- "quote_index": 3,
+ "quote_index": 4,
  "links": {
   "57357": {
    "state": "unknown",
@@ -400,13 +397,13 @@
    "fails": 0
   },
   "bayt": {
-   "state": "ok",
-   "code": 200,
+   "state": "unknown",
+   "code": 403,
    "fails": 0
   },
   "linkedin": {
-   "state": "ok",
-   "code": 200,
+   "state": "unknown",
+   "code": 429,
    "fails": 0
   },
   "forasna": {
@@ -426,20 +423,20 @@
   }
  },
  "health": {
-  "Remotive": 0,
   "Jobicy": 0,
+  "Remotive": 0,
   "Working Nomads": 0,
   "RemoteOK": 0,
-  "Merck KGaA": 0,
   "Boehringer Ingelheim": 0,
-  "Health companies": 0,
+  "Merck KGaA": 0,
   "IOM": 0,
   "ICRC": 0,
   "UNHCR, WFP": 0,
   "UN Careers": 0,
   "Pharma companies": 0,
   "UNDP": 0,
-  "Himalayas": 1,
+  "Health companies": 0,
+  "Himalayas": 2,
   "CROs": 0,
   "Impactpool": 0
  }
