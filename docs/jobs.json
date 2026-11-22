@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T13:11:58Z",
+ "updated": "2026-11-22T13:00:13Z",
  "areas": [
   "Hospital & clinical",
   "Drug safety",
@@ -29,10 +29,6 @@
    "ok": true,
    "count": 12
   },
-  "Health companies": {
-   "ok": true,
-   "count": 1011
-  },
   "Boehringer Ingelheim": {
    "ok": true,
    "count": 2
@@ -40,6 +36,10 @@
   "IOM": {
    "ok": true,
    "count": 1
+  },
+  "Health companies": {
+   "ok": true,
+   "count": 1011
   },
   "UNHCR, WFP": {
    "ok": true,
@@ -49,29 +49,29 @@
    "ok": true,
    "count": 1
   },
-  "Himalayas": {
-   "ok": true,
-   "count": 159
-  },
   "Pharma companies": {
    "ok": true,
-   "count": 34
+   "count": 33
   },
   "UN Careers": {
    "ok": true,
-   "count": 458
+   "count": 450
   },
   "UNDP": {
    "ok": true,
    "count": 7
   },
+  "Himalayas": {
+   "ok": false,
+   "error": "HTTP Error 429: Too Many Requests"
+  },
   "CROs": {
    "ok": true,
-   "count": 93
+   "count": 92
   },
   "Impactpool": {
    "ok": true,
-   "count": 63
+   "count": 61
   }
  },
  "jobs": [
@@ -105,8 +105,8 @@
     "years": 5
    },
    "apply_email": "",
-   "snippet": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (10 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the",
-   "details": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (10 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the Middle East and North Africa region. The incumbent will manage complex procurement processes, including construction projects, and ensure compliance with UN policies. Responsibilities include developing procurement strategies, conducting negotiations, and providing training to staff. The role requires collaboration with various stakeholders and adherence to financial regulations. Candidate Requirements: Advanced university degree in business administration, commerce, engineering, law or related field Professional certification in supply chains (CIPS Level 4 or equivalent) Minimum five years of professional work experience in procurement Experience with Enterprise Resource Planning (ERP) systems Experience with construction projects and procurement of architectural services Experience managing a team within the UN system or international organization Proficiency in English; French or Arabic desirable Org. Setting and Reporting This position is located in the Regional Office for the Middle East and North Africa (ROMENA) of the United Nations Office on Drugs and Crime (UNODC) in Cairo, Egypt. As Head of the Middle East and North Africa Procurement Hub, the incumbent works under the direct supervision of the Chief Procurement Officer (UNOV/UNODC Procurement Unit, Vienna), and the overall guidance of the UNODC Regional Representative for the Middle East and Nort",
+   "snippet": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (9 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the ",
+   "details": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (9 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the Middle East and North Africa region. The incumbent will manage complex procurement processes, including construction projects, and ensure compliance with UN policies. Responsibilities include developing procurement strategies, conducting negotiations, and providing training to staff. The role requires collaboration with various stakeholders and adherence to financial regulations. Candidate Requirements: Advanced university degree in business administration, commerce, engineering, law or related field Professional certification in supply chains (CIPS Level 4 or equivalent) Minimum five years of professional work experience in procurement Experience with Enterprise Resource Planning (ERP) systems Experience with construction projects and procurement of architectural services Experience managing a team within the UN system or international organization Proficiency in English; French or Arabic desirable Org. Setting and Reporting This position is located in the Regional Office for the Middle East and North Africa (ROMENA) of the United Nations Office on Drugs and Crime (UNODC) in Cairo, Egypt. As Head of the Middle East and North Africa Procurement Hub, the incumbent works under the direct supervision of the Chief Procurement Officer (UNOV/UNODC Procurement Unit, Vienna), and the overall guidance of the UNODC Regional Representative for the Middle East and North",
    "first_seen": "2026-11-17T15:11:21Z"
   },
   {
@@ -122,7 +122,7 @@
    "intl": false,
    "pharma": true,
    "deadline": "2026-12-01T00:00:00Z",
-   "posted": "2026-10-22T13:11:58Z",
+   "posted": "2026-10-23T13:00:13Z",
    "score": 81,
    "reasons": [
     "Pharmacy role",
@@ -155,7 +155,7 @@
    "intl": false,
    "pharma": true,
    "deadline": "2026-12-04T00:00:00Z",
-   "posted": "2026-11-19T13:11:58Z",
+   "posted": "2026-11-19T13:00:13Z",
    "score": 81,
    "reasons": [
     "Pharmacy role",
@@ -173,6 +173,41 @@
    "first_seen": "2026-11-19T14:04:00Z"
   },
   {
+   "id": "tenderspecialistgulfpfizer",
+   "title": "Tender Specialist Gulf",
+   "org": "Pfizer",
+   "source": "Pfizer",
+   "feed": "Pharma companies",
+   "url": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Egypt---Cairo/Tender-Specialist-Gulf_4968364",
+   "location": "Egypt - Cairo",
+   "remote": false,
+   "egypt": true,
+   "intl": false,
+   "pharma": true,
+   "deadline": "2026-12-05T00:00:00Z",
+   "posted": "2026-11-22T13:00:13Z",
+   "score": 76,
+   "reasons": [
+    "Asks for a pharmacy background",
+    "Arabic is a plus",
+    "Based in Greater Cairo"
+   ],
+   "areas": [
+    "Drug safety",
+    "Quality",
+    "Supply & procurement"
+   ],
+   "role": false,
+   "facts": {
+    "quals": "B.Pharm",
+    "years": 3
+   },
+   "apply_email": "",
+   "snippet": "ROLE SUMMARY: The Tender Specialist – Gulf supports the Tender Lead – Middle East in delivering revenue and IBA improvement for the Tender & Contracts (T&C) business across Gulf markets. The role owns the day-to-day preparation, documentation and submission of tenders and RFQs, including UAE daily RFQs, coordinates inputs from country and above-country stakeholders, maintains accurate and audit-ready tender records, ",
+   "details": "ROLE SUMMARY: The Tender Specialist – Gulf supports the Tender Lead – Middle East in delivering revenue and IBA improvement for the Tender & Contracts (T&C) business across Gulf markets. The role owns the day-to-day preparation, documentation and submission of tenders and RFQs, including UAE daily RFQs, coordinates inputs from country and above-country stakeholders, maintains accurate and audit-ready tender records, and tracks awards and contract obligations through to fulfillment, providing analysis and insights that strengthen tender commitments and bid competitiveness. CORE ACCOUNTABILITIES 1. TENDER PIPELINE & OPPORTUNITY TRACKING Maintain the Gulf tender calendar and opportunity tracker covering upcoming bids, renewals, deadlines, milestones and dependencies. Review incoming tender requests and RFQs for requirements, eligibility, specifications and timelines, and flag risks early to the Tender Lead. Prepare opportunity summaries using historical performance, pricing, supply feasibility and regulatory status to support bid / no-bid decisions. Handle UAE daily RFQs, ensuring timely responses aligned with approved pricing and supply availability. 2. TENDER PREPARATION, DOCUMENTATION & SUBMISSION Prepare and submit complete, accurate and compliant tender documents, ensuring all technical, commercial and administrative requirements are met. Coordinate and follow up on inputs from Regulatory, Supply, Access & Pricing, Medical, Pharmacovigilance, Quality, Legal and distributors, as applicable. Manage bid documentation, version control, bid bonds, samples, certificates and supporting documents within agreed timelines. Manage clarifications and queries from procurement entities through to final submission. Review tender terms and conditions, highlight deviations and support",
+   "first_seen": "2026-11-22T13:00:13Z"
+  },
+  {
    "id": "productionpharmacistspecialistnonsterilesolidsliquidssanofi",
    "title": "Production Pharmacist Specialist (Non-Sterile Solids /Liquids)",
    "org": "Sanofi",
@@ -185,7 +220,7 @@
    "intl": false,
    "pharma": true,
    "deadline": "2026-12-04T00:00:00Z",
-   "posted": "2026-11-18T13:11:58Z",
+   "posted": "2026-11-18T13:00:13Z",
    "score": 73,
    "reasons": [
     "Pharmacy role",
@@ -205,36 +240,6 @@
    "first_seen": "2026-11-18T12:34:06Z"
   },
   {
-   "id": "intersectionalimportationandcustomsspecialist",
-   "title": "Intersectional Importation and Customs Specialist",
-   "org": "MSF International - Médecins Sans Frontières (Doctors Without Borders)",
-   "source": "Impactpool",
-   "feed": "Impactpool",
-   "url": "https://www.impactpool.org/jobs/1246636",
-   "location": "Remote",
-   "remote": true,
-   "egypt": false,
-   "intl": true,
-   "pharma": false,
-   "deadline": "2026-11-22T00:00:00Z",
-   "posted": null,
-   "score": 58,
-   "reasons": [
-    "Asks for a pharmacy background",
-    "Remote / home-based"
-   ],
-   "areas": [
-    "Regulatory",
-    "Supply & procurement"
-   ],
-   "role": false,
-   "facts": {},
-   "apply_email": "",
-   "snippet": "Intersectional Importation and Customs Specialist MSF International - Médecins Sans Frontières (Doctors Without Borders) Remote | office, Any International Mid level Application deadline: November 22, 2026 Closing soon Apply Summary by Impactpool The Intersectional Importation and Customs Specialist at MSF will provide strategic, technical, and hands-on support on importation and customs matters to improve compliance",
-   "details": "Intersectional Importation and Customs Specialist MSF International - Médecins Sans Frontières (Doctors Without Borders) Remote | office, Any International Mid level Application deadline: November 22, 2026 Closing soon Apply Summary by Impactpool The Intersectional Importation and Customs Specialist at MSF will provide strategic, technical, and hands-on support on importation and customs matters to improve compliance, cost-efficiency, and operational continuity. This role involves collaborating with various stakeholders to develop and implement MSF's intersectional I&C strategy, analyze existing processes, and propose improvements. The specialist will also provide structured support to country programs, conduct assessments, and engage with national authorities. The position requires strong analytical skills and the ability to operate in complex environments. Candidate Requirements: Strong analytical and problem-solving skills Ability to work autonomously and in cross-functional teams Experience in importation and customs processes Ability to manage competing priorities Experience in training and knowledge sharing Ability to engage with diverse stakeholders Location: Any MSF office* Contract: Fixed-term at 100% Duration: 12 months Starting date: 01st of January 2027 Deadline to apply: 22nd of November 2026 Compensation and Benefits: MSF practice is to offer the compensation and benefits package in line with the MSF entity offering the contract *By default, the successful candidate will be offered a contract in the MSF office, able to issue a contract, of their country of residence at the time of application. If no MSF office exists in their country of residence, the successful candidate will be expected to relocate to a country where an MSF office can issue a contract, p",
-   "first_seen": "2026-11-17T15:11:21Z"
-  },
-  {
    "id": "seniorproductionpharmacistsanofi",
    "title": "Senior Production Pharmacist",
    "org": "Sanofi",
@@ -247,7 +252,7 @@
    "intl": false,
    "pharma": true,
    "deadline": "2026-12-04T00:00:00Z",
-   "posted": "2026-11-18T13:11:58Z",
+   "posted": "2026-11-18T13:00:13Z",
    "score": 58,
    "reasons": [
     "Pharmacy role",
@@ -266,6 +271,41 @@
    "snippet": "About the job Join our Manufacturing team in the Solids area, where you'll ensure that weekly and monthly production plans are met in line with Sanofi and GMP requirements. You will supervise operators and workers, in coordination with the Solid Section Head, while driving KPIs, team capability, and a strong HSE culture across the production and packaging areas. Main responsibilities: Fulfill the Solid Area plan for ",
    "details": "About the job Join our Manufacturing team in the Solids area, where you'll ensure that weekly and monthly production plans are met in line with Sanofi and GMP requirements. You will supervise operators and workers, in coordination with the Solid Section Head, while driving KPIs, team capability, and a strong HSE culture across the production and packaging areas. Main responsibilities: Fulfill the Solid Area plan for products weekly Implement GMP concepts through daily work Keep the division KPIs within objectives Improve personnel capabilities Fulfill the monthly and weekly production plans according to the schedule Supervise the duties of subordinates, operators, and other workers, in coordination with the Solid Section Head Monitor product activities in compliance with Sanofi and GMP requirements Ensure that all standard yields are maintained by production lines Ensure general cleanliness and hygienic conditions of the packaging area and personnel Ensure that all production equipment is maintained in good working condition Make sure the on-the-job training of production personnel is up to date Respect standard labor and machine hours Ensure production personnel follow the gowning procedure before entering production areas Check the availability of adequate materials and utilities in the department Decide whether to reject or use materials, either before use upon trials or when discovered in process Update SOPs used in the production areas Train subordinates, operators, and workers on GMP, HSE guides, and SOPs HSE responsibilities: Apply the machine safety checklist on a regular basis Deliver ergonomics training on a regular basis Commit to appropriate PPE use Ensure that risk assessments for any newly transferred product and new machine are adequately covered Continuo",
    "first_seen": "2026-11-18T12:34:06Z"
+  },
+  {
+   "id": "pricingmanagerpfizer",
+   "title": "Pricing Manager",
+   "org": "Pfizer",
+   "source": "Pfizer",
+   "feed": "Pharma companies",
+   "url": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Egypt---Cairo/Pricing-Manager_4968349-1",
+   "location": "Egypt - Cairo",
+   "remote": false,
+   "egypt": true,
+   "intl": false,
+   "pharma": true,
+   "deadline": "2026-12-05T00:00:00Z",
+   "posted": "2026-11-22T13:00:13Z",
+   "score": 53,
+   "reasons": [
+    "Asks for a pharmacy background",
+    "Arabic is a plus",
+    "Based in Greater Cairo",
+    "Senior level"
+   ],
+   "areas": [
+    "Regulatory",
+    "Supply & procurement"
+   ],
+   "role": false,
+   "facts": {
+    "quals": "B.Pharm",
+    "years": 3
+   },
+   "apply_email": "",
+   "snippet": "ROLE SUMMARY Pharmaceutical pricing in Egypt, the Levant and Iraq is evolving quickly, with growing use of international reference pricing, pricing steps linked to product registration, and price adjustments driven by policy and exchange-rate changes. The Pricing Manager leads the day-to-day execution of pricing for these markets, in line with regional pricing strategy and governance. Based in Cairo, the role prepare",
+   "details": "ROLE SUMMARY Pharmaceutical pricing in Egypt, the Levant and Iraq is evolving quickly, with growing use of international reference pricing, pricing steps linked to product registration, and price adjustments driven by policy and exchange-rate changes. The Pricing Manager leads the day-to-day execution of pricing for these markets, in line with regional pricing strategy and governance. Based in Cairo, the role prepares and manages pricing submissions, maintains pricing records and analytics, provides pricing input to tenders and access plans, and works closely with Regulatory, Finance, Commercial and market access colleagues as well as local distribution partners. CORE ACCOUNTABILITIES 1. EGYPT PRICING Prepare pricing simulations, submissions and repricing responses in line with local pricing regulations; monitor reference-price movements and flag potential impacts early. Maintain accurate pricing records and a complete audit trail for all pricing activities. 2. LEVANT AND IRAQ PRICE APPROVALS Prepare and follow up pricing submissions and price-list updates for Iraq, Jordan and Lebanon, working with local distribution partners and in line with regional pricing guidance. Monitor exchange-rate and policy changes affecting prices and recommend appropriate actions. 3. TENDER AND ACCESS PRICING SUPPORT Provide pricing analysis and recommendations to support tenders, national programs and market access plans, within agreed pricing guidelines. 4. GOVERNANCE AND ANALYTICS Manage pricing governance and approval workflows; produce regular pricing reports and reference-price analyses. Support new product launches with pricing and launch-sequencing analysis. 5. POLICY INSIGHT AND PERFORMANCE TRACKING Monitor pricing policy developments across the region’s health authorities and shar",
+   "first_seen": "2026-11-22T13:00:13Z"
   }
  ],
  "seen": {
@@ -282,9 +322,11 @@
   "productionpharmacistspecialistnonsterilesolidsliquidssanofi": "2026-11-18T12:34:06Z",
   "seniorproductionpharmacistsanofi": "2026-11-18T12:34:06Z",
   "qualitycontrolanalystviatris": "2026-11-18T12:52:27Z",
-  "liquidsproductionpharmacistsanofi": "2026-11-19T14:04:00Z"
+  "liquidsproductionpharmacistsanofi": "2026-11-19T14:04:00Z",
+  "tenderspecialistgulfpfizer": "2026-11-22T13:00:13Z",
+  "pricingmanagerpfizer": "2026-11-22T13:00:13Z"
  },
- "quote_index": 4,
+ "quote_index": 5,
  "links": {
   "57357": {
    "state": "unknown",
@@ -402,8 +444,8 @@
    "fails": 0
   },
   "linkedin": {
-   "state": "ok",
-   "code": 200,
+   "state": "unknown",
+   "code": 429,
    "fails": 0
   },
   "forasna": {
@@ -428,15 +470,15 @@
   "Working Nomads": 0,
   "RemoteOK": 0,
   "Merck KGaA": 0,
-  "Health companies": 0,
   "Boehringer Ingelheim": 0,
   "IOM": 0,
+  "Health companies": 0,
   "UNHCR, WFP": 0,
   "ICRC": 0,
-  "Himalayas": 0,
   "Pharma companies": 0,
   "UN Careers": 0,
   "UNDP": 0,
+  "Himalayas": 1,
   "CROs": 0,
   "Impactpool": 0
  }
