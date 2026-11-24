@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T15:37:34Z",
+ "updated": "2026-11-24T15:29:01Z",
  "areas": [
   "Hospital & clinical",
   "Drug safety",
@@ -11,7 +11,7 @@
  "sources": {
   "Remotive": {
    "ok": true,
-   "count": 16
+   "count": 15
   },
   "Jobicy": {
    "ok": true,
@@ -29,52 +29,86 @@
    "ok": true,
    "count": 11
   },
+  "Health companies": {
+   "ok": true,
+   "count": 1028
+  },
   "Boehringer Ingelheim": {
    "ok": true,
    "count": 2
   },
   "IOM": {
    "ok": true,
-   "count": 2
-  },
-  "UNHCR, WFP": {
-   "ok": true,
-   "count": 1
-  },
-  "Health companies": {
-   "ok": true,
-   "count": 1012
-  },
-  "ICRC": {
-   "ok": true,
-   "count": 1
-  },
-  "Pharma companies": {
-   "ok": true,
-   "count": 33
-  },
-  "UNDP": {
-   "ok": true,
-   "count": 7
+   "count": 3
   },
   "UN Careers": {
    "ok": true,
    "count": 423
   },
-  "Himalayas": {
+  "UNHCR, WFP": {
    "ok": true,
-   "count": 159
+   "count": 0
+  },
+  "ICRC": {
+   "ok": true,
+   "count": 0
+  },
+  "UNDP": {
+   "ok": true,
+   "count": 11
+  },
+  "Pharma companies": {
+   "ok": true,
+   "count": 36
+  },
+  "Himalayas": {
+   "ok": false,
+   "error": "HTTP Error 429: Too Many Requests"
   },
   "CROs": {
    "ok": true,
-   "count": 92
+   "count": 94
   },
   "Impactpool": {
    "ok": true,
-   "count": 61
+   "count": 62
   }
  },
  "jobs": [
+  {
+   "id": "regulatoryspecialistcountrylabellinggsk",
+   "title": "Regulatory Specialist, Country Labelling",
+   "org": "GSK",
+   "source": "GSK",
+   "feed": "Pharma companies",
+   "url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers/job/Egypt---Cairo/Regulatory-Specialist--Country-Labelling_451929",
+   "location": "Egypt - Cairo",
+   "remote": false,
+   "egypt": true,
+   "intl": false,
+   "pharma": true,
+   "deadline": "2026-12-09T00:00:00Z",
+   "posted": "2026-11-24T15:29:01Z",
+   "score": 100,
+   "reasons": [
+    "Pharmacy role",
+    "Arabic is a plus",
+    "Based in Greater Cairo"
+   ],
+   "areas": [
+    "Regulatory",
+    "Supply & procurement"
+   ],
+   "role": true,
+   "facts": {
+    "quals": "B.Pharm",
+    "years": 1
+   },
+   "apply_email": "",
+   "snippet": "Job Purpos e As a Regulatory Specialist, Country Labelling , you will be providing support to GRA Labelling staff to ensure the timely management and communication of global, country and regional Product Information/labelling documentation. Effective coordination, communication and maintenance of labelling documents and data in regulatory systems in accordance with defined standards and processes. Key Responsibilitie",
+   "details": "Job Purpos e As a Regulatory Specialist, Country Labelling , you will be providing support to GRA Labelling staff to ensure the timely management and communication of global, country and regional Product Information/labelling documentation. Effective coordination, communication and maintenance of labelling documents and data in regulatory systems in accordance with defined standards and processes. Key Responsibilities: This role will provide YOU the opportunity to lead key activities to progress YOUR career. These responsibilities include some of the following: Support country/regional labelling for Pharma and Vaccines in compliance with GSK Labelling processes and external requirements. delivering the following aspects of labelling: Author and compile Regional/Country PI [Product Info.] as per regulatory authority labelling requirements and GSK process and standards. Author and compile market-specific supporting documentation for labelling submissions in accordance with regulatory authority requirements and GSK process and standards. Storage of labelling documentation in regulatory systems including communication of approved Global and regional/country PI Efficient communication with GSK staff (including Global Regulatory Affairs, Global safety and medical and Local Operating Companies) to collate, compile and perform quality checks of labelling documents. Management of GRA Labelling data in relevant regulatory systems e.g. Veeva Vault Supporting GRA-labelling processes and systems in accordance with GSK policies and procedures Supporting other labelling functions and participation in other projects and activities as needed, such as contributing to the implementation of changes to processes within GRA Labelling. Responsible for coordinating the mailbox and managing non",
+   "first_seen": "2026-11-24T15:29:01Z"
+  },
   {
    "id": "procurementofficerunodcunitednationsof",
    "title": "Procurement Officer",
@@ -105,8 +139,8 @@
     "years": 5
    },
    "apply_email": "",
-   "snippet": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (8 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the ",
-   "details": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (8 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the Middle East and North Africa region. The incumbent will manage complex procurement processes, including construction projects, and ensure compliance with UN policies. Responsibilities include developing procurement strategies, conducting negotiations, and providing training to staff. The role requires collaboration with various stakeholders and adherence to financial regulations. Candidate Requirements: Advanced university degree in business administration, commerce, engineering, law or related field Professional certification in supply chains (CIPS Level 4 or equivalent) Minimum five years of professional work experience in procurement Experience with Enterprise Resource Planning (ERP) systems Experience with construction projects and procurement of architectural services Experience managing a team within the UN system or international organization Proficiency in English; French or Arabic desirable Org. Setting and Reporting This position is located in the Regional Office for the Middle East and North Africa (ROMENA) of the United Nations Office on Drugs and Crime (UNODC) in Cairo, Egypt. As Head of the Middle East and North Africa Procurement Hub, the incumbent works under the direct supervision of the Chief Procurement Officer (UNOV/UNODC Procurement Unit, Vienna), and the overall guidance of the UNODC Regional Representative for the Middle East and North",
+   "snippet": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (7 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the ",
+   "details": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (7 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the Middle East and North Africa region. The incumbent will manage complex procurement processes, including construction projects, and ensure compliance with UN policies. Responsibilities include developing procurement strategies, conducting negotiations, and providing training to staff. The role requires collaboration with various stakeholders and adherence to financial regulations. Candidate Requirements: Advanced university degree in business administration, commerce, engineering, law or related field Professional certification in supply chains (CIPS Level 4 or equivalent) Minimum five years of professional work experience in procurement Experience with Enterprise Resource Planning (ERP) systems Experience with construction projects and procurement of architectural services Experience managing a team within the UN system or international organization Proficiency in English; French or Arabic desirable Org. Setting and Reporting This position is located in the Regional Office for the Middle East and North Africa (ROMENA) of the United Nations Office on Drugs and Crime (UNODC) in Cairo, Egypt. As Head of the Middle East and North Africa Procurement Hub, the incumbent works under the direct supervision of the Chief Procurement Officer (UNOV/UNODC Procurement Unit, Vienna), and the overall guidance of the UNODC Regional Representative for the Middle East and North",
    "first_seen": "2026-11-17T15:11:21Z"
   },
   {
@@ -122,7 +156,7 @@
    "intl": false,
    "pharma": true,
    "deadline": "2026-12-01T00:00:00Z",
-   "posted": "2026-10-24T15:37:34Z",
+   "posted": "2026-10-25T15:29:01Z",
    "score": 81,
    "reasons": [
     "Pharmacy role",
@@ -155,7 +189,7 @@
    "intl": false,
    "pharma": true,
    "deadline": "2026-12-04T00:00:00Z",
-   "posted": "2026-11-19T15:37:34Z",
+   "posted": "2026-11-19T15:29:01Z",
    "score": 81,
    "reasons": [
     "Pharmacy role",
@@ -173,6 +207,40 @@
    "first_seen": "2026-11-19T14:04:00Z"
   },
   {
+   "id": "seniorspecialistregulatoryaffairsnovartis",
+   "title": "Senior Specialist, Regulatory Affairs",
+   "org": "Novartis",
+   "source": "Novartis",
+   "feed": "Pharma companies",
+   "url": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/New-Cairo/Senior-Specialist--Regulatory-Affairs_REQ-10093052",
+   "location": "New Cairo",
+   "remote": false,
+   "egypt": true,
+   "intl": false,
+   "pharma": true,
+   "deadline": "2026-12-02T00:00:00Z",
+   "posted": "2026-11-24T15:29:01Z",
+   "score": 78,
+   "reasons": [
+    "Pharmacy role",
+    "Arabic is a plus",
+    "Based in Greater Cairo",
+    "Senior level"
+   ],
+   "areas": [
+    "Regulatory"
+   ],
+   "role": true,
+   "facts": {
+    "quals": "B.Pharm",
+    "years": 4
+   },
+   "apply_email": "",
+   "snippet": "Job Description Summary #LI-Hybrid Location: Cairo, Egypt Relocation Support: This role is based in Cairo, Egypt. Novartis is unable to offer relocation support: please only apply if accessible. Ready to make your mark in Regulatory Affairs? As a Senior Regulatory Affairs Associate, you’ll be at the heart of bringing innovative medicines closer to the patients who need them. You’ll collaborate with colleagues across ",
+   "details": "Job Description Summary #LI-Hybrid Location: Cairo, Egypt Relocation Support: This role is based in Cairo, Egypt. Novartis is unable to offer relocation support: please only apply if accessible. Ready to make your mark in Regulatory Affairs? As a Senior Regulatory Affairs Associate, you’ll be at the heart of bringing innovative medicines closer to the patients who need them. You’ll collaborate with colleagues across functions, navigate an evolving regulatory environment and help shape high-quality submissions and regulatory activities throughout the product lifecycle. It’s an opportunity to build your expertise, broaden your impact and play a meaningful role in turning regulatory strategy into outcomes for patients. Job Description Key Responsibilities Develop and execute local regulatory strategies and submission plans aligned with business priorities and Egyptian regulatory requirements. Lead new product registrations and lifecycle activities, including renewals, variations, safety submissions and product information updates. Prepare, review and manage high-quality regulatory submissions to the Egyptian Drug Authority, ensuring timely follow-up and approvals. Provide regulatory expertise and guidance to local, regional and global stakeholders across assigned products. Assess regulatory impacts of product changes and define appropriate local submission, approval and implementation requirements. Support product launches, approved changes and business continuity through effective cross-functional regulatory collaboration. Identify regulatory risks, drive process improvements and build effective relationships with health authorities and internal stakeholders. Essential Requirements Degree in Pharmacy, with or without a relevant postgraduate qualification. Three to four ye",
+   "first_seen": "2026-11-24T15:29:01Z"
+  },
+  {
    "id": "tenderspecialistgulfpfizer",
    "title": "Tender Specialist Gulf",
    "org": "Pfizer",
@@ -185,7 +253,7 @@
    "intl": false,
    "pharma": true,
    "deadline": "2026-12-05T00:00:00Z",
-   "posted": "2026-11-23T15:37:34Z",
+   "posted": "2026-11-22T15:29:01Z",
    "score": 76,
    "reasons": [
     "Asks for a pharmacy background",
@@ -220,7 +288,7 @@
    "intl": false,
    "pharma": true,
    "deadline": "2026-12-04T00:00:00Z",
-   "posted": "2026-11-18T15:37:34Z",
+   "posted": "2026-11-18T15:29:01Z",
    "score": 73,
    "reasons": [
     "Pharmacy role",
@@ -252,7 +320,7 @@
    "intl": false,
    "pharma": true,
    "deadline": "2026-12-04T00:00:00Z",
-   "posted": "2026-11-18T15:37:34Z",
+   "posted": "2026-11-18T15:29:01Z",
    "score": 58,
    "reasons": [
     "Pharmacy role",
@@ -285,7 +353,7 @@
    "intl": false,
    "pharma": true,
    "deadline": "2026-12-05T00:00:00Z",
-   "posted": "2026-11-23T15:37:34Z",
+   "posted": "2026-11-22T15:29:01Z",
    "score": 53,
    "reasons": [
     "Asks for a pharmacy background",
@@ -324,9 +392,11 @@
   "qualitycontrolanalystviatris": "2026-11-18T12:52:27Z",
   "liquidsproductionpharmacistsanofi": "2026-11-19T14:04:00Z",
   "tenderspecialistgulfpfizer": "2026-11-22T13:00:13Z",
-  "pricingmanagerpfizer": "2026-11-22T13:00:13Z"
+  "pricingmanagerpfizer": "2026-11-22T13:00:13Z",
+  "regulatoryspecialistcountrylabellinggsk": "2026-11-24T15:29:01Z",
+  "seniorspecialistregulatoryaffairsnovartis": "2026-11-24T15:29:01Z"
  },
- "quote_index": 5,
+ "quote_index": 6,
  "links": {
   "57357": {
    "state": "unknown",
@@ -444,8 +514,8 @@
    "fails": 0
   },
   "linkedin": {
-   "state": "ok",
-   "code": 200,
+   "state": "unknown",
+   "code": 429,
    "fails": 0
   },
   "forasna": {
@@ -470,15 +540,15 @@
   "Working Nomads": 0,
   "RemoteOK": 0,
   "Merck KGaA": 0,
+  "Health companies": 0,
   "Boehringer Ingelheim": 0,
   "IOM": 0,
-  "UNHCR, WFP": 0,
-  "Health companies": 0,
-  "ICRC": 0,
-  "Pharma companies": 0,
-  "UNDP": 0,
   "UN Careers": 0,
-  "Himalayas": 0,
+  "UNHCR, WFP": 0,
+  "ICRC": 0,
+  "UNDP": 0,
+  "Pharma companies": 0,
+  "Himalayas": 1,
   "CROs": 0,
   "Impactpool": 0
  }
