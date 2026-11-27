@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T14:39:14Z",
+ "updated": "2026-11-27T14:37:22Z",
  "areas": [
   "Hospital & clinical",
   "Drug safety",
@@ -11,7 +11,7 @@
  "sources": {
   "Remotive": {
    "ok": true,
-   "count": 16
+   "count": 17
   },
   "Jobicy": {
    "ok": true,
@@ -19,7 +19,7 @@
   },
   "Working Nomads": {
    "ok": true,
-   "count": 38
+   "count": 36
   },
   "RemoteOK": {
    "ok": true,
@@ -31,7 +31,7 @@
   },
   "Health companies": {
    "ok": true,
-   "count": 1038
+   "count": 1034
   },
   "Boehringer Ingelheim": {
    "ok": true,
@@ -39,27 +39,27 @@
   },
   "IOM": {
    "ok": true,
-   "count": 3
+   "count": 4
+  },
+  "UN Careers": {
+   "ok": true,
+   "count": 439
   },
   "Pharma companies": {
    "ok": true,
    "count": 34
   },
-  "UN Careers": {
-   "ok": true,
-   "count": 448
-  },
   "UNHCR, WFP": {
-   "ok": true,
-   "count": 0
-  },
-  "ICRC": {
    "ok": true,
    "count": 0
   },
   "UNDP": {
    "ok": true,
-   "count": 13
+   "count": 12
+  },
+  "ICRC": {
+   "ok": true,
+   "count": 0
   },
   "Himalayas": {
    "ok": false,
@@ -67,11 +67,11 @@
   },
   "CROs": {
    "ok": true,
-   "count": 96
+   "count": 102
   },
   "Impactpool": {
    "ok": true,
-   "count": 64
+   "count": 67
   }
  },
  "jobs": [
@@ -88,7 +88,7 @@
    "intl": false,
    "pharma": true,
    "deadline": "2026-12-05T00:00:00Z",
-   "posted": "2026-11-26T14:39:14Z",
+   "posted": "2026-11-27T14:37:22Z",
    "score": 100,
    "reasons": [
     "Pharmacy role",
@@ -119,7 +119,7 @@
    "intl": false,
    "pharma": true,
    "deadline": "2026-12-09T00:00:00Z",
-   "posted": "2026-11-24T14:39:14Z",
+   "posted": "2026-11-24T14:37:22Z",
    "score": 100,
    "reasons": [
     "Pharmacy role",
@@ -170,8 +170,8 @@
     "years": 5
    },
    "apply_email": "",
-   "snippet": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (5 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the ",
-   "details": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (5 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the Middle East and North Africa region. The incumbent will manage complex procurement processes, including construction projects, and ensure compliance with UN policies. Responsibilities include developing procurement strategies, conducting negotiations, and providing training to staff. The role requires collaboration with various stakeholders and adherence to financial regulations. Candidate Requirements: Advanced university degree in business administration, commerce, engineering, law or related field Professional certification in supply chains (CIPS Level 4 or equivalent) Minimum five years of professional work experience in procurement Experience with Enterprise Resource Planning (ERP) systems Experience with construction projects and procurement of architectural services Experience managing a team within the UN system or international organization Proficiency in English; French or Arabic desirable Org. Setting and Reporting This position is located in the Regional Office for the Middle East and North Africa (ROMENA) of the United Nations Office on Drugs and Crime (UNODC) in Cairo, Egypt. As Head of the Middle East and North Africa Procurement Hub, the incumbent works under the direct supervision of the Chief Procurement Officer (UNOV/UNODC Procurement Unit, Vienna), and the overall guidance of the UNODC Regional Representative for the Middle East and North",
+   "snippet": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 Closing soon Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for ",
+   "details": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 Closing soon Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the Middle East and North Africa region. The incumbent will manage complex procurement processes, including construction projects, and ensure compliance with UN policies. Responsibilities include developing procurement strategies, conducting negotiations, and providing training to staff. The role requires collaboration with various stakeholders and adherence to financial regulations. Candidate Requirements: Advanced university degree in business administration, commerce, engineering, law or related field Professional certification in supply chains (CIPS Level 4 or equivalent) Minimum five years of professional work experience in procurement Experience with Enterprise Resource Planning (ERP) systems Experience with construction projects and procurement of architectural services Experience managing a team within the UN system or international organization Proficiency in English; French or Arabic desirable Org. Setting and Reporting This position is located in the Regional Office for the Middle East and North Africa (ROMENA) of the United Nations Office on Drugs and Crime (UNODC) in Cairo, Egypt. As Head of the Middle East and North Africa Procurement Hub, the incumbent works under the direct supervision of the Chief Procurement Officer (UNOV/UNODC Procurement Unit, Vienna), and the overall guidance of the UNODC Regional Representative for the Middle East and N",
    "first_seen": "2026-11-17T15:11:21Z"
   },
   {
@@ -187,7 +187,7 @@
    "intl": false,
    "pharma": true,
    "deadline": "2026-12-01T00:00:00Z",
-   "posted": "2026-10-27T14:39:14Z",
+   "posted": "2026-10-28T14:37:22Z",
    "score": 81,
    "reasons": [
     "Pharmacy role",
@@ -220,7 +220,7 @@
    "intl": false,
    "pharma": true,
    "deadline": "2026-12-04T00:00:00Z",
-   "posted": "2026-11-19T14:39:14Z",
+   "posted": "2026-11-19T14:37:22Z",
    "score": 81,
    "reasons": [
     "Pharmacy role",
@@ -250,7 +250,7 @@
    "intl": false,
    "pharma": true,
    "deadline": "2026-12-05T00:00:00Z",
-   "posted": "2026-11-22T14:39:14Z",
+   "posted": "2026-11-22T14:37:22Z",
    "score": 76,
    "reasons": [
     "Asks for a pharmacy background",
@@ -285,7 +285,7 @@
    "intl": false,
    "pharma": true,
    "deadline": "2026-12-04T00:00:00Z",
-   "posted": "2026-11-18T14:39:14Z",
+   "posted": "2026-11-18T14:37:22Z",
    "score": 73,
    "reasons": [
     "Pharmacy role",
@@ -317,7 +317,7 @@
    "intl": false,
    "pharma": true,
    "deadline": "2026-12-04T00:00:00Z",
-   "posted": "2026-11-18T14:39:14Z",
+   "posted": "2026-11-18T14:37:22Z",
    "score": 58,
    "reasons": [
     "Pharmacy role",
@@ -350,7 +350,7 @@
    "intl": false,
    "pharma": true,
    "deadline": "2026-12-05T00:00:00Z",
-   "posted": "2026-11-22T14:39:14Z",
+   "posted": "2026-11-22T14:37:22Z",
    "score": 53,
    "reasons": [
     "Asks for a pharmacy background",
@@ -541,12 +541,12 @@
   "Health companies": 0,
   "Boehringer Ingelheim": 0,
   "IOM": 0,
-  "Pharma companies": 0,
   "UN Careers": 0,
+  "Pharma companies": 0,
   "UNHCR, WFP": 0,
-  "ICRC": 0,
   "UNDP": 0,
-  "Himalayas": 1,
+  "ICRC": 0,
+  "Himalayas": 2,
   "CROs": 0,
   "Impactpool": 0
  }
